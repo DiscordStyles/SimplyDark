@@ -203,14 +203,14 @@
     }
   }
   // Context menu
-  .contextMenu-HLZMGh {
+  .menu-3sdvDG {
     background: var(--bg5);
     box-shadow: none;
-    .item-1Yvehc {
+    .item-1tOPte {
       margin: 0;
       padding: 8px 11px;
       cursor: pointer;
-      &:hover {
+      &:hover, &.focused-3afm-j {
         background-color: var(--bg7);
       }
     }

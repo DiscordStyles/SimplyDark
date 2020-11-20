@@ -1,6 +1,6 @@
 #app-mount .sidebar-2K8pFh {
   background: var(--bg4);
-  .container-PNkimc {
+  .container-3w7J-x {
     background: transparent;
     .animatedContainer-1pJv5C {
       margin-top: 48px;
@@ -12,42 +12,42 @@
     .scroller-2FKFPG::-webkit-scrollbar {
       width: 0 !important;
     }
-    .unread-1xRYoj {
-      background: var(--bg15);
+    .unread-2lAfLh {
+      z-index: 2;
     }
-    .wrapper-1ucjTd {
-      .content-3at_AU {
-        .icon-1_QxNX, .name-3_Dsmg {
+    .wrapper-2jXpOf {
+      .content-1x5b-n {
+        .icon-1DeIlz, .name-23GUGE {
           color: #888;
         }
       }
-      &:hover .content-3at_AU {
+      &:hover .content-1x5b-n {
         background: var(--bg5);
-        .icon-1_QxNX, .name-3_Dsmg {
+        .icon-1DeIlz, .name-23GUGE {
           color: #bbb;
         }
       }
-      &.modeMuted-3osy7j {
-        .icon-1_QxNX, .name-3_Dsmg {
+      &.modeMuted-onO3r- {
+        .icon-1DeIlz, .name-23GUGE {
           color: #666;
         }
       }
-      &.modeUnread-1zpFdA {
+      &.modeUnread-1qO3K1 {
         .unread-3zKkbm {
           background-color: #fff;
         }
-        .content-3at_AU {
-          .icon-1_QxNX, .name-3_Dsmg {
+        .content-1x5b-n {
+          .icon-1DeIlz, .name-23GUGE {
             color: #fff;
           }
         }
       }
-      &.modeSelected-1zApJ_ .content-3at_AU {
+      &.modeSelected-346R90 .content-1x5b-n {
         background: var(--bg6);
-        .name-3_Dsmg {
+        .name-23GUGE {
           color: #fff;
         }
-        .icon-1_QxNX {
+        .icon-1DeIlz {
           color: #bbb;
         }
       }
@@ -69,7 +69,7 @@
         }
       }
     }
-    .content-3at_AU {
+    .content-1x5b-n {
       margin-left: 0;
       padding-left: 16px;
     }
