@@ -1,24 +1,26 @@
-.platform-win .wrapper-1Rf91z .scroller-2TZvBN {
+.platform-win .guilds-1SWlCJ .scrollerBase-289Jih {
   padding-top: 8px;
 }
-.scroller-2TZvBN::-webkit-scrollbar {
+.scrollerBase-289Jih::-webkit-scrollbar {
   display: none;
 }
-.wrapper-1Rf91z {
-  background-color: var(--bg6) !important;
-  .folder-21wGz3 {
+.guilds-1SWlCJ {
+  .scrollerBase-289Jih {
+    background-color: var(--bg6) !important;
+  }
+  .folder-1hbNCn {
     background: var(--bg10);
-    &.hover-2ji_A7 {
+    &.hover-qTxTR_ {
       background-color: var(--bg12);
     }
   }
-  .expandedFolderBackground-2sPsd- {
+  .expandedFolderBackground-1cujaW {
     background-color: var(--bg8);
-    &.hover-2ji_A7 {
+    &.hover-qTxTR_ {
       background-color: var(--bg10);
     }
   }
-  .listItem-2P_4kh {
+  .listItem-GuPuDH {
     position: relative;
     * {
       mask: none !important;
@@ -71,7 +73,7 @@
       border-radius: var(--SD-roundness) !important;
     }
   }
-  .expandedFolderBackground-2sPsd-, .folder-21wGz3, .folderIconWrapper-226oVY, .iconSizeSmol-2Dw61G, .numberBadge-2s8kKX {
+  .expandedFolderBackground-2sPsd-, .folder-1hbNCn, .folderIconWrapper-226oVY, .iconSizeSmol-2Dw61G, .numberBadge-2s8kKX {
     border-radius: var(--SD-roundness) !important;
   }
   .childWrapper-anI2G9, .circleIconButton-jET_ig {
