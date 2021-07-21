@@ -1,0 +1,122 @@
+@use './mixins' as *;
+
+#app-mount {
+	// Buttons
+	button {
+		&.lookFilled-1Gx00P {
+			&.colorBrand-3pXr91 {
+				background: rgb(var(--accent));
+				transition: .15s ease;
+				&:hover {
+					box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1);
+				}
+				&:focus {
+					box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .2);
+				}
+			}
+			&.colorPrimary-3b3xI6 {
+				@include hsl(15%);
+				&:hover {
+					@include hsl(20%);
+				}
+				&:focus {
+					@include hsl(25%);
+				}
+			}
+		}
+	}
+
+	// Inputs/Textarea
+	.input-cIJ7To {
+		@include hsl(3%);
+		border: none;
+		transition: background-color .15s ease;
+		&:hover {
+			@include hsl(4%);
+		}
+		&:focus {
+			@include hsl(6%);
+		}
+	}
+
+	// Radio groups
+	[role="radiogroup"] .item-26Dhrx {
+		@include hsl(4%);
+		&:hover {
+			@include hsl(6%);
+		}
+		&[aria-checked="true"] {
+			@include hsl(10%);
+			circle {
+				color: rgb(var(--accent));
+			}
+		}
+	}
+
+	// Slider
+	.slider-1PF9SW {
+		.bar-2Qqk5Z {
+			@include hsl(15%);
+		}
+		.barFill-23-gu- {
+			background: rgb(var(--accent));
+		}
+		.markDash-3hAolZ {
+			@include hsl(15%);
+		}
+	}
+
+	// Checkboxes
+	.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+	.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+		color: rgb(var(--accent));
+	}
+	.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+		color: #fff;
+	}
+
+	// Switches
+	.bd-switch-handle {
+		rx: 0;
+	}
+	.container-3auIfb {
+		rect {
+			rx: 0;
+		}
+	}
+
+	// Select
+	.css-gvi9bl-control {
+		@include hsl(3%);
+		border: none;
+		&:hover {
+			@include hsl(5%);
+		}
+	}
+	.css-6fzn47-control,
+	.css-17e1tep-control {
+		@include hsl(5%);
+		border: none;
+	}
+	.css-3vaxre-menu {
+		@include hsl(8%);
+		border: none;
+	}
+	.css-rzbxvl-option {
+		@include hsl(6%);
+		color: #fff;
+	}
+	.css-1ba14n5-option {
+		background: rgb(var(--accent));
+		color: #fff;
+	}
+
+	// Keybind
+	.container-1nZlH6 {
+		@include hsl(3%);
+		@include hsl(3%, 'border-color');
+		&:hover {
+			border-color: var(--discord-red);
+		}
+	}
+}

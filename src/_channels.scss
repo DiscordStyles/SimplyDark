@@ -1,0 +1,99 @@
+@use './mixins' as *;
+
+#app-mount .sidebar-2K8pFh {
+	@include hsl(2%);
+
+	.privateChannels-1nO12o,
+	.scroller-1JbKMe,
+	.container-3w7J-x {
+		background: transparent;
+	}
+	.scroller-RmtA4e,
+	.scroller-1JbKMe {
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	// Search bar
+	.searchBar-6Kv8R2 {
+		@include hsl(8%);
+		box-shadow: none;
+	}
+	.searchBarComponent-32dTOx {
+		@include hsl(4%);
+	}
+
+	// Header
+	.header-2V-4Sw {
+		@include hsl(8%);
+		box-shadow: none;
+	}
+
+	// Banner
+	.content-3YMskv > div[style="height: 84px;"] {
+		height: 135px !important;
+	}
+	.animatedContainer-1NSq4T {
+		top: 48px;
+	}
+
+	// DMs
+	.channel-2QD9_O {
+		max-width: unset;
+		margin-left: 0;
+		padding: 0;
+		.layout-2DM8Md {
+			padding: 0 8px 0 16px;
+		}
+
+		&:hover .layout-2DM8Md {
+			@include hsl(4%);
+		}
+		&.selected-aXhQR6 .layout-2DM8Md {
+			@include hsl(6%);
+		}
+	}
+
+	// Channel
+	.content-1Wq3SX {
+		margin: 0;
+	}
+	.wrapper-2jXpOf {
+		padding: 0;
+		&.modeUnread-1qO3K1 {
+			svg {
+				color: #fff;
+			}
+		}
+		&:hover {
+			.content-1x5b-n {
+				@include hsl(4%);
+			}
+		}
+		&.modeSelected-346R90 {
+			svg {
+				color: #fff;
+			}
+			.content-1x5b-n {
+				@include hsl(6%);
+			}
+		}
+	}
+	.content-1x5b-n {
+		padding: 0 8px 0 16px;
+		margin: 0;
+	}
+	.unread-2lAfLh {
+		z-index: 1;
+	}
+
+	// Panels
+	.panels-j1Uci_ {
+		@include hsl(5%);
+	}
+	.container-1giJp5 {
+		border: none;
+		padding-bottom: 0;
+	}
+}

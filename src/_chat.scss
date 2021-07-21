@@ -1,0 +1,142 @@
+@use './mixins' as *;
+
+#app-mount .chat-3bRxxu {
+	@include hsl(0%);
+
+	.content-yTz4x3:before {
+		content: none;
+	}
+
+	// Placeholder
+	.wrapper-1F5TKx,
+	.wrapper-3vR61M {
+		background: transparent;
+	}
+
+	// Message
+	.message-2qnXI6.selected-2P5D_Z,
+	.message-2qnXI6:not(.mentioned-xhSam7):hover {
+		@include hsl(-1%);
+	}
+
+	// Embeds, codeblocks, files
+	.markup-2BOw-j code,
+	.textContainer-C0szpm,
+	.wrapper-35wsBm,
+	.wrapperAudio-1jDe0Q {
+		border: none;
+		@include hsl(4%);
+	}
+	.footer-2yA7Ep {
+		border: none;
+		@include hsl(2%);
+	}
+	.embedFull-2tM8-- {
+		@include hsl(4%);
+	}
+	.guildIconImage-3qTk45 {
+		border-radius: var(--server-shape) !important;
+		background-color: transparent;
+	}
+
+	// Reactions
+	.reaction-1hd86g {
+		@include hsl(8%);
+		border: none;
+		&.reactionMe-wv5HKu {
+			@include hsl(25%);
+			.reactionCount-2mvXRV {
+				color: #fff;
+			}
+		}
+	}
+
+	// Mention
+	.mentioned-xhSam7 {
+		background: rgb(var(--accent), .1);
+		&:before {
+			background: rgb(var(--accent));
+		}
+	}
+	.wrapper-3WhCwL {
+		background: rgb(var(--accent), .4);
+		color: #fff;
+		&:hover {
+			background: rgb(var(--accent));
+		}
+	}
+
+	// Dividers
+	.content-1o0f9g {
+		@include hsl(8%);
+		color: var(--text-normal);
+	}
+
+	// Action buttons
+	.wrapper-2aW0bm {
+		@include hsl(6%);
+		box-shadow: none;
+	}
+	.button-1ZiXG9:hover {
+		@include hsl(12%);
+	}
+
+	// Chatbox
+	.form-2fGMdU {
+		padding: 0;
+		margin: 0;
+		min-height: 53px;
+	}
+	.channelTextArea-rNsIhG {
+		margin-bottom: 0;
+	}
+	.scrollableContainer-2NUZem {
+		@include hsl(2%);
+		min-height: 53px;
+	}
+	.slateTextArea-1Mkdgw,
+	.placeholder-37qJjk {
+		padding: 16px 0 15px;
+		box-sizing: border-box;
+	}
+	.attachButton-2WznTc {
+		padding: 16px 16px 15px;
+		box-sizing: border-box;
+		height: 53px;
+	}
+	.buttons-3JBrkn,
+	.emojiButton-3uL3Aw {
+		min-height: 53px;
+	}
+
+	// Typing
+	.base-gE7OpD {
+		@include hsl(0%);
+		bottom: unset;
+		top: -24px;
+		pointer-events: none;
+		left: 0;
+		right: 8px;
+		padding-right: 8px;
+	}
+
+	// Bars
+	.newMessagesBar-265mhP {
+		left: 0;
+		right: 0;
+		background: rgb(var(--accent));
+	}
+	.jumpToPresentBar-G1R9s6 {
+		left: 0;
+		right: 0;
+		padding-bottom: 0;
+		@include hsl(2%);
+	}
+	.clipContainer-eeROt0 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.replyBar-1YLQ2F {
+		@include hsl(6%);
+	}
+}

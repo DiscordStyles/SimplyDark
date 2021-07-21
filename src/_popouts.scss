@@ -1,0 +1,146 @@
+@use './mixins' as *;
+
+#app-mount {
+	// General menus
+	.menu-3sdvDG {
+		@include hsl(12%);
+		box-shadow: none;
+
+		.scroller-3BxosC {
+			padding: 0;
+			& > div[aria-hidden="true"],
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+		.separator-2I32lJ {
+			margin: 0;
+			background: rgb(255 255 255 / .01);
+		}
+		.item-1tOPte {
+			margin: 0;
+			padding: 8px;
+			&.colorDefault-2K3EoJ.focused-3afm-j {
+				@include hsl(9%);
+			}
+			&.colorDanger-2qLCe1.focused-3afm-j {
+				background: var(--discord-red);
+			}
+			&.colorPremium-p4p7qO {
+				color: var(--discord-pink);
+				&.focused-3afm-j {
+					background: var(--discord-pink);
+					color: #fff;
+				}
+			}
+			& + .layer-v9HyYc {
+				margin-left: -4px;
+			}
+		}
+	}
+
+	// User popout
+	.userPopout-xaxa6l {
+		box-shadow: none;
+		@include hsl(8%);
+		&[style*="--user-background"] {
+			.banner-2QYc2d {
+				height: 120px;
+    		background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center / cover !important;
+			}
+			.avatarPositionNormal-aZjAsn {
+				top: 76px;
+			}
+		}
+	}
+	.avatar-37jOim {
+		@include hsl(8%, 'border-color');
+		@include hsl(8%);
+	}
+	.body-3HBlXn {
+		padding: 0 16px 16px !important;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	.bodyInnerWrapper-26fQXj {
+		background: transparent;
+	}
+	.note-1oo11U {
+		margin: 0;
+	}
+	.textarea-2r0oV8,
+	.input-2_SIlA {
+		@include hsl(4%);
+		border: none;
+		&:hover {
+			@include hsl(2%);
+		}
+		&:focus {
+			@include hsl(0%);
+		}
+	}
+	.footer-3UKYOU {
+		background: transparent;
+	}
+
+	// Search suggestions
+	.container-3ayLPN {
+		@include hsl(7%);
+		box-shadow: none;
+	}
+	.option-96V44q {
+		&:after {
+			content: none;
+		}
+		&.selected-rZcOL- {
+			@include hsl(4%);
+			&:before {
+				width: 34px;
+				@include hsl(4%);
+			}
+		}
+	}
+
+	// Search results
+	.searchResultsWrap-3-pOjs {
+		@include hsl(2%);
+	}
+	.searchHeader-2XoQg7 {
+		@include hsl(6%);
+	}
+	.channelName-1JRO3C {
+		background: transparent;
+	}
+	.searchResult-9tQ1uo {
+		@include hsl(-1%);
+	}
+
+	// Status selector
+	.statusItem-33LqPf {
+		padding: 0 4px;
+		.description-2L932D {
+			display: none;
+		}
+	}
+
+	// Auto complete
+	.autocomplete-1vrmpx {
+		@include hsl(3%);
+		box-shadow: none;
+		bottom: 100%;
+	}
+	.wrapper-2Gsate {
+		@include hsl(4%);
+	}
+	.selected-3xBBKs,
+	.selected-3xBBKs:hover {
+		@include hsl(12%);
+	}
+	.categoryHeader-O1zU94 {
+		@include hsl(3%);
+	}
+	.base-1pYU8j.selected-1Tbx07 {
+		@include hsl(6%);
+	}
+}

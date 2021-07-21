@@ -1,0 +1,88 @@
+@use './mixins' as *;
+
+*, *:before, *:after {
+	mask: none;
+	border-radius: 0 !important;
+}
+
+::selection {
+	background: rgb(var(--accent));
+	color: #fff;
+}
+
+.bg-h5JY_x {
+	@include hsl(0%);
+}
+
+.tabBody-3YRQ8W:before {
+	content: none;
+}
+
+.baseLayer-35bLyl {
+	transform: scale(1) !important;
+	opacity: 1 !important;
+}
+
+// Scrollbars
+::-webkit-scrollbar {
+	width: 8px !important;
+	height: 8px !important;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 0 !important;
+	border: none !important;
+	background-clip: content-box !important;
+	background-color: rgba(255,255,255,0.1) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(255,255,255,0.15) !important;
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: rgba(255,255,255,0.2) !important;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+	display: none !important;
+}
+
+// Tooltips
+#app-mount {
+	.tooltipPrimary-1d1ph4 {
+		--text-muted: var(--text-normal);
+		@include hsl(30%);
+	}
+	.guildNameText-3Zwx4p,
+	.tooltipContent-bqVLWK {
+		color: #fff;
+	}
+	.tooltipPointer-3ZfirK {
+		border-top-color: hsl(
+			var(--hue)
+			var(--saturation)
+			calc(var(--lightness) + 30%)
+		);
+	}
+
+	.info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+		content: "SimplyDark v" var(--simplydark-version);
+		text-transform: none;
+		display: block;
+	}
+}
+
+// Lightmode warning
+html.theme-light #app-mount:after {
+	content: "SimplyDark does not support Light Theme\APlease enable Dark Theme in your Discord Appearance Settings";
+	white-space: pre-wrap;
+	line-height: 24px;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	@include hsl(20%);
+}

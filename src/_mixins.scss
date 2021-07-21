@@ -1,0 +1,7 @@
+@mixin hsl($lightness, $property: 'background-color') {
+	#{$property}: hsl(
+		var(--hue)
+		var(--saturation)
+		calc(var(--lightness) + #{$lightness})
+	);
+}

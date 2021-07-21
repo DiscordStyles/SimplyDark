@@ -1,0 +1,84 @@
+@use './mixins' as *;
+
+#app-mount {
+	// Global
+	.container-1D34oG,
+	.stageSection-3mAD8V,
+	.scroller-1IIF0A,
+	.scroller-9moviB,
+	.applicationStore-1pNvnv,
+	.pageWrapper-1PgVDX {
+		background: transparent;
+	}
+	
+	// Friends
+	.peopleList-3c4jOR::-webkit-scrollbar {
+		display: none;
+	}
+	.peopleListItem-2nzedh {
+		margin: 0;
+		padding: 0 16px;
+		&:hover {
+			@include hsl(1.5%);
+		}
+	}
+	.actionButton-uPB8Fs {
+		@include hsl(4%);
+		&:hover {
+			@include hsl(12%);
+		}
+	}
+
+	.container-lRFx4q {
+		@include hsl(2%);
+	}
+	.scroller-2ZPeAD {
+		border: none;
+	}
+	.wrapper-3D2qGf {
+		border: none;
+		@include hsl(6%);
+		&:hover {
+			@include hsl(10%);
+		}
+	}
+
+	// Stage Discovery
+	.container-S9SaVf {
+		border: none;
+		@include hsl(4%);
+	}
+	.container-7Unqij {
+		@include hsl(2%);
+	}
+
+	// Library
+	.header-39GIC8 {
+		background: transparent;
+	}
+
+	// Nitro
+	.detailsBlock-FoDTGA,
+	.feature-2w65J5 {
+		@include hsl(4%);
+	}
+
+	// Discovery
+	.sidebar-2K8pFh .scrollerBase-289Jih::-webkit-scrollbar {
+		display: none;
+	}
+	.container-2Pjhx- {
+		margin: 0;
+		padding: 0;
+		&.selected-aXhQR6 .layout-2DM8Md {
+			background: rgb(var(--accent));
+		}
+	}
+	.card-3DjzTQ {
+		@include hsl(4%);
+		&:hover {
+			@include hsl(8%);
+		}
+	}
+
+}

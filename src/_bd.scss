@@ -1,0 +1,10 @@
+@use './mixins' as *;
+
+#app-mount {
+	.bd-addon-card {
+		@include hsl(4%);
+	}
+	.bd-addon-header {
+		@include hsl(6%);
+	}
+}

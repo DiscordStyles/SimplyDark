@@ -1,0 +1,55 @@
+@use './mixins' as *;
+
+#app-mount .wrapper-3NnKdC {
+	@include hsl(6%);
+
+	.scroller-1Bvpku {
+		background: transparent;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	.wrapper-1BJsBx {
+		border-radius: var(--server-shape) !important;
+		overflow: hidden;
+	}
+	
+	.expandedFolderBackground-1cujaW {
+		@include hsl(10%);
+		border-radius: var(--server-shape) !important;
+	}
+	
+	.childWrapper-anI2G9 {
+		@include hsl(10%);
+		&:hover {
+			@include hsl(15%);
+		}
+	}
+	.circleIconButton-1QV--U {
+		border-radius: var(--server-shape) !important;
+		&:not(.selected-1JjBPm) {
+			@include hsl(10%);
+		}
+	}
+
+	.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+		background: rgb(var(--accent));
+	}
+
+	// Folders
+	.folder-1hbNCn {
+		border-radius: var(--server-shape) !important;
+	}
+	.folderIconWrapper-1_bOZe {
+		border-radius: var(--server-shape) !important;
+	}
+	.guildIcon-2Tpnad {
+		border-radius: var(--server-shape) !important;
+	}
+}
+
+// Windows
+.platform-win .scroller-1Bvpku {
+	padding-top: 12px;
+}

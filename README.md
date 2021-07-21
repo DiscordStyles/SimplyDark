@@ -2,18 +2,13 @@
 A sharp and simple theme for Discord.
 
 - - -
-BetterDiscord Download: [https://betterdiscord.net/ghdl?id=3362](https://betterdiscord.net/ghdl?id=3362)  
+BetterDiscord Download: soon:tm:  
 Powercord Install: `git clone https://github.com/DiscordStyles/SimplyDark`
 - - -
 
-Server Chat + User Popout
-![Server Chat](https://i.imgur.com/PZsOQ3d.jpg)
+Server Chat
+![image](https://i.imgur.com/TATxJ9s.png)
 
-Friends list
-![Friends List](https://i.imgur.com/jinqkHx.jpg)
+## License
 
-User Settings
-![User Settings](https://i.imgur.com/9HRBSYP.jpg)
-
-Server Settings
-![Server Settings](https://i.imgur.com/YlWfkMd.jpg)
+See the [LICENSE](https://github.com/DiscordStyles/SimplyDark/blob/master/LICENSE.md) file for license rights and limitations (MIT).
