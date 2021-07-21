@@ -2,7 +2,7 @@
 A sharp and simple theme for Discord.
 
 - - -
-BetterDiscord Download: soon:tm:  
+BetterDiscord Download: [https://betterdiscord.app/theme/SimplyDark](https://betterdiscord.app/Download?id=394)  
 Powercord Install: `git clone https://github.com/DiscordStyles/SimplyDark`
 - - -
 
