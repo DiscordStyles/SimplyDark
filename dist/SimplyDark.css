@@ -144,6 +144,7 @@ html.theme-light #app-mount:after {
   background: rgb(var(--accent));
 }
 #app-mount .wrapper-3NnKdC .folder-1hbNCn {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 15%));
   border-radius: var(--server-shape) !important;
 }
 #app-mount .wrapper-3NnKdC .folderIconWrapper-1_bOZe {
@@ -250,7 +251,8 @@ html.theme-light #app-mount:after {
 #app-mount .chat-3bRxxu .markup-2BOw-j code,
 #app-mount .chat-3bRxxu .textContainer-C0szpm,
 #app-mount .chat-3bRxxu .wrapper-35wsBm,
-#app-mount .chat-3bRxxu .wrapperAudio-1jDe0Q {
+#app-mount .chat-3bRxxu .wrapperAudio-1jDe0Q,
+#app-mount .chat-3bRxxu .attachment-33OFj0 {
   border: none;
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
@@ -626,6 +628,9 @@ html.theme-light #app-mount:after {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
 }
 
+#app-mount .scroller-3gAZLs::-webkit-scrollbar {
+  display: none;
+}
 #app-mount .menu-3sdvDG {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
   box-shadow: none;
@@ -752,6 +757,101 @@ html.theme-light #app-mount:after {
 }
 #app-mount .base-1pYU8j.selected-1Tbx07 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
+}
+#app-mount .messagesPopoutWrap-1MQ1bW {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
+  box-shadow: none;
+}
+#app-mount .messagesPopoutWrap-1MQ1bW code,
+#app-mount .messagesPopoutWrap-1MQ1bW .embedFull-2tM8-- {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
+}
+#app-mount .header-ykumBX {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 10%));
+  box-shadow: none;
+}
+#app-mount .header-ykumBX .button-1-5Aqk {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+  color: #fff;
+}
+#app-mount .messageGroupWrapper-o-Zw7G {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 5%));
+  border: none;
+}
+#app-mount .jumpButton-3DTcS_ {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+  color: #fff;
+}
+#app-mount .jumpButton-3DTcS_:hover {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 30%));
+}
+#app-mount .container-enaOkj {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
+  box-shadow: none;
+}
+#app-mount .icon-1Itzco {
+  background-color: transparent;
+}
+#app-mount .channelHeader-3Gd2xq {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
+}
+#app-mount .messageContainer-gbhlwo {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 5%));
+}
+#app-mount .closeButton-1152MI {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
+}
+#app-mount .contentWrapper-SvZHNd {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
+}
+#app-mount .container-2XeR5Z,
+#app-mount .container-cMG81i {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
+}
+#app-mount .header-8ilj5e,
+#app-mount .header-1TOWci,
+#app-mount .header-2k4I2o {
+  box-shadow: none;
+}
+#app-mount .navButton-2gQCx-:hover {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+}
+#app-mount .navButtonActive-1MkytQ {
+  background: rgb(var(--accent));
+}
+#app-mount .navButtonActive-1MkytQ:hover {
+  background: rgb(var(--accent));
+}
+#app-mount .bodyWrapper-3G0FZZ,
+#app-mount .content-ySCtCx,
+#app-mount .wrapper-OxgYJ1 {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
+}
+#app-mount .wrapper-1-Fsb8 {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
+}
+#app-mount .inspector-S2gM3e {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 9%));
+}
+#app-mount .categoryFadeBlurple-1j72_A {
+  background: rgb(var(--accent));
+  opacity: 0.8;
+}
+#app-mount .result-3w1ZcL:hover:after {
+  box-shadow: inset 0 0 0 2px rgb(var(--accent));
+}
+#app-mount .emojiItemSelected-1aLkfV {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+}
+#app-mount .categoryItemDefaultCategorySelected-_HCKoz,
+#app-mount .guildIconWithoutImage-2JZx6N,
+#app-mount .guildIcon-3h-1IH {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 15%));
+}
+#app-mount .categoryItemDefaultCategorySelected-_HCKoz:hover,
+#app-mount .guildIconWithoutImage-2JZx6N:hover,
+#app-mount .guildIcon-3h-1IH:hover {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 25%));
 }
 
 #app-mount .root-1gCeng {
