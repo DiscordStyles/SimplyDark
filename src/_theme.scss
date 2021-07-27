@@ -9,4 +9,16 @@
 
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
+
+:root {
+	--hue: 220;
+	--saturation: 0%;
+	--lightness: 8%;
+
+	--accent: 59, 130, 246;
+
+	--avatar-shape: 0%;
+	--server-shape: 0%;
+
+	--font: 'Roboto';
+}

@@ -1,5 +1,4 @@
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
-
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
   --simplydark-version: "3.0.0";
   --font-primary: var(--font);
@@ -49,8 +48,7 @@
 }
 
 .baseLayer-35bLyl {
-  -webkit-transform: scale(1) !important;
-          transform: scale(1) !important;
+  transform: scale(1) !important;
   opacity: 1 !important;
 }
 
@@ -173,16 +171,14 @@ html.theme-light #app-mount:after {
 }
 #app-mount .sidebar-2K8pFh .searchBar-6Kv8R2 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .sidebar-2K8pFh .searchBarComponent-32dTOx {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
 #app-mount .sidebar-2K8pFh .header-2V-4Sw {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .sidebar-2K8pFh .content-3YMskv > div[style="height: 84px;"] {
   height: 135px !important;
@@ -298,8 +294,7 @@ html.theme-light #app-mount:after {
 }
 #app-mount .chat-3bRxxu .wrapper-2aW0bm {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .chat-3bRxxu .button-1ZiXG9:hover {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
@@ -319,13 +314,11 @@ html.theme-light #app-mount:after {
 #app-mount .chat-3bRxxu .slateTextArea-1Mkdgw,
 #app-mount .chat-3bRxxu .placeholder-37qJjk {
   padding: 16px 0 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 #app-mount .chat-3bRxxu .attachButton-2WznTc {
   padding: 16px 16px 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 53px;
 }
 #app-mount .chat-3bRxxu .buttons-3JBrkn,
@@ -450,8 +443,7 @@ html.theme-light #app-mount:after {
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
-  -webkit-transform: scale(1) !important;
-          transform: scale(1) !important;
+  transform: scale(1) !important;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegionScroller-3MXcoP {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
@@ -530,16 +522,13 @@ html.theme-light #app-mount:after {
 
 #app-mount button.lookFilled-1Gx00P.colorBrand-3pXr91 {
   background: rgb(var(--accent));
-  -webkit-transition: 0.15s ease;
   transition: 0.15s ease;
 }
 #app-mount button.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  -webkit-box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.1);
-          box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.1);
 }
 #app-mount button.lookFilled-1Gx00P.colorBrand-3pXr91:focus {
-  -webkit-box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2);
-          box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2);
 }
 #app-mount button.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 15%));
@@ -553,7 +542,6 @@ html.theme-light #app-mount:after {
 #app-mount .input-cIJ7To {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
   border: none;
-  -webkit-transition: background-color 0.15s ease;
   transition: background-color 0.15s ease;
 }
 #app-mount .input-cIJ7To:hover {
@@ -640,8 +628,7 @@ html.theme-light #app-mount:after {
 
 #app-mount .menu-3sdvDG {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .menu-3sdvDG .scroller-3BxosC {
   padding: 0;
@@ -674,8 +661,7 @@ html.theme-light #app-mount:after {
   margin-left: -4px;
 }
 #app-mount .userPopout-xaxa6l {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
 #app-mount .userPopout-xaxa6l[style*="--user-background"] .banner-2QYc2d {
@@ -719,8 +705,7 @@ html.theme-light #app-mount:after {
 }
 #app-mount .container-3ayLPN {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .option-96V44q:after {
   content: none;
@@ -752,8 +737,7 @@ html.theme-light #app-mount:after {
 }
 #app-mount .autocomplete-1vrmpx {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   bottom: 100%;
 }
 #app-mount .wrapper-2Gsate {
@@ -772,13 +756,11 @@ html.theme-light #app-mount:after {
 
 #app-mount .root-1gCeng {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 #app-mount .footer-2gL1pp,
 #app-mount .footer-3mqk7D {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
 #app-mount .uploadModal-2ifh8j {
