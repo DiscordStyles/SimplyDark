@@ -3,7 +3,7 @@
     "description": "A sharp and simple theme for Discord",
     "version": "3.0.0",
     "author": "Gibbu#1211",
-    "theme": "SimplyDark.theme.css",
+    "theme": "dist/SimplyDark.theme.css",
     "consent": ["ext_listing"],
     "license": "MIT"
 }
