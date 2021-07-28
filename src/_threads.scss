@@ -1,0 +1,24 @@
+@use './mixins' as *;
+
+#app-mount {
+	.threadSidebar-1o3BTy {
+		margin-left: 0;
+		@include hsl(2%);
+		.scrollableContainer-2NUZem {
+			@include hsl(6%);
+		}
+	}
+
+	// Channels
+	.typeThread-3ESTm- .content-1x5b-n {
+		padding-left: 42px;
+	}
+	.spine--Wla_O {
+		z-index: 1;
+	}
+
+	// Chat
+	.container-3hZ-gs {
+		@include hsl(4%);
+	}
+}

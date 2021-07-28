@@ -102,7 +102,7 @@
 		}
 		&.selected-rZcOL- {
 			@include hsl(4%);
-			&:before {
+			&::before {
 				width: 34px;
 				@include hsl(4%);
 			}

@@ -32,4 +32,24 @@
 	.tabBarContainer-37hZsr {
 		@include hsl(12%, 'border-color');
 	}
+
+	// Quickswitch
+	.quickswitcher-3JagVE {
+		@include hsl(4%);
+		box-shadow: none;
+	}
+	.input-2VB9rf {
+		@include hsl(8%);
+		box-shadow: none;
+	}
+	.scroller-zPkAnE {
+		background: transparent;
+		margin: 0;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	.resultFocused-3aIoYe {
+		@include hsl(8%);
+	}
 }
