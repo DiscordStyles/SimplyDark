@@ -2,82 +2,82 @@
 
 #app-mount {
 	// Scrollbars
-	.scroller-3gAZLs {
+	.scroller-2MALzE {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// General menus
-	.menu-3sdvDG {
+	.menu-1QACrS {
 		@include hsl(12%);
 		box-shadow: none;
 
-		.scroller-3BxosC {
+		.scroller-1bVxF5 {
 			padding: 0;
 			& > div[aria-hidden="true"],
 			&::-webkit-scrollbar {
 				display: none;
 			}
 		}
-		.separator-2I32lJ {
+		.separator-1So4YB {
 			margin: 0;
 			background: rgb(255 255 255 / .01);
 		}
-		.item-1tOPte {
+		.item-1OdjEX {
 			margin: 0;
 			padding: 8px;
-			&.colorDefault-2K3EoJ.focused-3afm-j {
+			&.colorDefault-CDqZdO.focused-3qFvc8 {
 				@include hsl(9%);
 			}
-			&.colorDanger-2qLCe1.focused-3afm-j {
+			&.colorDanger-3n-KnP.focused-3qFvc8 {
 				background: var(--discord-red);
 			}
-			&.colorPremium-p4p7qO {
+			&.colorPremium-vwmYZQ {
 				color: var(--discord-pink);
-				&.focused-3afm-j {
+				&.focused-3qFvc8 {
 					background: var(--discord-pink);
 					color: #fff;
 				}
 			}
-			& + .layer-v9HyYc {
+			& + .layer-2aCOJ3 {
 				margin-left: -4px;
 			}
 		}
 	}
 
 	// User popout
-	.userPopout-xaxa6l {
+	.userPopout-2j1gM4 {
 		box-shadow: none;
 		@include hsl(8%);
 		&[style*="--user-background"] {
-			.banner-2QYc2d {
+			.banner-1YaD3N {
 				height: 120px;
     		background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center / cover !important;
 			}
-			.avatarPositionNormal-aZjAsn {
+			.avatarPositionNormal-2jWoC2 {
 				top: 76px;
 			}
 		}
 	}
-	.avatar-37jOim {
+	.avatar-2Vndt_ {
 		@include hsl(8%, 'border-color');
 		@include hsl(8%);
 	}
-	.body-3HBlXn {
+	.body-2wLx-E {
 		padding: 0 16px 16px !important;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.bodyInnerWrapper-26fQXj {
+	.bodyInnerWrapper-2bQs1k {
 		background: transparent;
 	}
-	.note-1oo11U {
+	.note-Go5ZP2 {
 		margin: 0;
 	}
-	.textarea-2r0oV8,
-	.input-2_SIlA {
+	.textarea-_59yqs,
+	.input-2z42oC {
 		@include hsl(4%);
 		border: none;
 		&:hover {
@@ -87,16 +87,16 @@
 			@include hsl(0%);
 		}
 	}
-	.footer-3UKYOU {
+	.footer-3naVBw {
 		background: transparent;
 	}
 
 	// Search suggestions
-	.container-3ayLPN {
+	.container-2McqkF {
 		@include hsl(7%);
 		box-shadow: none;
 	}
-	.option-96V44q {
+	.option-2KkUJO {
 		&:after {
 			content: none;
 		}
@@ -110,69 +110,69 @@
 	}
 
 	// Search results
-	.searchResultsWrap-3-pOjs {
+	.searchResultsWrap-5RVOkx {
 		@include hsl(2%);
 	}
-	.searchHeader-2XoQg7 {
+	.searchHeader-1r_ZSh {
 		@include hsl(6%);
 	}
-	.channelName-1JRO3C {
+	.channelName-3w2Y3c {
 		background: transparent;
 	}
-	.searchResult-9tQ1uo {
+	.searchResult-O9NDji {
 		@include hsl(-1%);
 	}
 
 	// Status selector
-	.statusItem-33LqPf {
+	.statusItem-2hiCNB {
 		padding: 0 4px;
-		.description-2L932D {
+		.description-3Cwkxk {
 			display: none;
 		}
 	}
 
 	// Auto complete
-	.autocomplete-1vrmpx {
+	.autocomplete-3NRXG8 {
 		@include hsl(3%);
 		box-shadow: none;
 		bottom: 100%;
 	}
-	.wrapper-2Gsate {
+	.wrapper-22rqw6 {
 		@include hsl(4%);
 	}
-	.selected-3xBBKs,
-	.selected-3xBBKs:hover {
+	.selected-3B2w1z,
+	.selected-3B2w1z:hover {
 		@include hsl(12%);
 	}
-	.categoryHeader-O1zU94 {
+	.categoryHeader-OpJ1Ly {
 		@include hsl(3%);
 	}
-	.base-1pYU8j.selected-1Tbx07 {
+	.base-2v-uc0.selected-3H3-RC {
 		@include hsl(6%);
 	}
 
 	// Pinned messages
-	.messagesPopoutWrap-1MQ1bW {
+	.messagesPopoutWrap-3zryHW {
 		@include hsl(7%);
 		box-shadow: none;
 		code,
-		.embedFull-2tM8-- {
+		.embedFull-1HGV2S {
 			@include hsl(12%);
 		}
 	}
-	.header-ykumBX {
+	.header-1w9Q93 {
 		@include hsl(10%);
 		box-shadow: none;
-		.button-1-5Aqk {
+		.button-1_oXub {
 			@include hsl(20%);
 			color: #fff;
 		}
 	}
-	.messageGroupWrapper-o-Zw7G {
+	.messageGroupWrapper-1jf_7C {
 		@include hsl(5%);
 		border: none;
 	}
-	.jumpButton-3DTcS_ {
+	.jumpButton-1ZwI_j {
 		@include hsl(20%);
 		color: #fff;
 		&:hover {
@@ -181,69 +181,69 @@
 	}
 
 	// Inbox/Mentions
-	.container-enaOkj {
+	.container-2ebMPP {
 		@include hsl(7%);
 		box-shadow: none;
 	}
-	.icon-1Itzco {
+	.icon-2yhmi8 {
 		background-color: transparent;
 	}
-	.channelHeader-3Gd2xq {
+	.channelHeader-DFRX8q {
 		@include hsl(7%);
 	}
-	.messageContainer-gbhlwo {
+	.messageContainer-3VTXBC {
 		@include hsl(5%);
 	}
-	.closeButton-1152MI {
+	.closeButton-3CiW2j {
 		@include hsl(12%);
 	}
 
 	// Emojipicker/Gif selector
-	.contentWrapper-SvZHNd {
+	.contentWrapper-3vHNP2 {
 		@include hsl(12%);
 	}
-	.container-2XeR5Z,
-	.container-cMG81i {
+	.container-1SX9VC,
+	.container-2oNtJn {
 		@include hsl(3%);
 	}
-	.header-8ilj5e,
-	.header-1TOWci,
-	.header-2k4I2o {
+	.header-11eigE,
+	.header-JHwfVI,
+	.header-uVCAlo {
 		box-shadow: none;
 	}
-	.navButton-2gQCx-:hover {
+	.navButton-1XuvI-:hover {
 		@include hsl(20%);
 	}
-	.navButtonActive-1MkytQ {
+	.navButtonActive-1EqC5l {
 		background: rgb(var(--accent));
 		&:hover {
 			background: rgb(var(--accent));
 		}
 	}
-	.bodyWrapper-3G0FZZ,
-	.content-ySCtCx,
-	.wrapper-OxgYJ1 {
+	.bodyWrapper-1eSOtW,
+	.content-1CboaJ,
+	.wrapper-i1awk3 {
 		@include hsl(7%);
 	}
-	.wrapper-1-Fsb8 {
+	.wrapper-1NNaWG {
 		@include hsl(7%);
 	}
-	.inspector-S2gM3e {
+	.inspector-DFKXwB {
 		@include hsl(9%);
 	}
-	.categoryFadeBlurple-1j72_A {
+	.categoryFadeBlurple-1HuV1x {
 		background: rgb(var(--accent));
 		opacity: .8;
 	}
-	.result-3w1ZcL:hover:after {
+	.result-3OpoO7:hover:after {
 		box-shadow: inset 0 0 0 2px rgb(var(--accent));
 	}
-	.emojiItemSelected-1aLkfV {
+	.emojiItemSelected-2Lg50V {
 		@include hsl(20%);
 	}
-	.categoryItemDefaultCategorySelected-_HCKoz,
-	.guildIconWithoutImage-2JZx6N,
-	.guildIcon-3h-1IH {
+	.categoryItemDefaultCategorySelected-2YeRUu,
+	.guildIconWithoutImage-3bOll3,
+	.guildIcon-2SUGiq {
 		@include hsl(15%);
 		&:hover {
 			@include hsl(25%);

@@ -2,40 +2,40 @@
 
 #app-mount {
 	// Global
-	.container-1D34oG,
+	.container-2cd8Mz,
 	.stageSection-3mAD8V,
-	.scroller-1IIF0A,
-	.scroller-9moviB,
-	.applicationStore-1pNvnv,
-	.pageWrapper-1PgVDX {
+	.scroller-2XLwLg,
+	.scroller-29cQFV,
+	.applicationStore-2nk7Lo,
+	.pageWrapper-2PwDoS {
 		background: transparent;
 	}
 	
 	// Friends
-	.peopleList-3c4jOR::-webkit-scrollbar {
+	.peopleList-2VBrVI::-webkit-scrollbar {
 		display: none;
 	}
-	.peopleListItem-2nzedh {
+	.peopleListItem-u6dGxF {
 		margin: 0;
 		padding: 0 16px;
 		&:hover {
 			@include hsl(1.5%);
 		}
 	}
-	.actionButton-uPB8Fs {
+	.actionButton-3-B2x- {
 		@include hsl(4%);
 		&:hover {
 			@include hsl(12%);
 		}
 	}
 
-	.container-lRFx4q {
+	.container-1oAagU {
 		@include hsl(2%);
 	}
-	.scroller-2ZPeAD {
+	.scroller-hE2gWq {
 		border: none;
 	}
-	.wrapper-3D2qGf {
+	.wrapper-2RrXDg {
 		border: none;
 		@include hsl(6%);
 		&:hover {
@@ -53,28 +53,28 @@
 	}
 
 	// Library
-	.header-39GIC8 {
+	.header-2EadGG {
 		background: transparent;
 	}
 
 	// Nitro
 	.detailsBlock-FoDTGA,
-	.feature-2w65J5 {
+	.feature-2IUcBI {
 		@include hsl(4%);
 	}
 
 	// Discovery
-	.sidebar-2K8pFh .scrollerBase-289Jih::-webkit-scrollbar {
+	.sidebar-1tnWFu .scrollerBase-_bVAAt::-webkit-scrollbar {
 		display: none;
 	}
-	.container-2Pjhx- {
+	.container-1oeRFJ {
 		margin: 0;
 		padding: 0;
-		&.selected-aXhQR6 .layout-2DM8Md {
+		&.selected-1-Z6gm .layout-1qmrhw {
 			background: rgb(var(--accent));
 		}
 	}
-	.card-3DjzTQ {
+	.card-2TuZPZ {
 		@include hsl(4%);
 		&:hover {
 			@include hsl(8%);

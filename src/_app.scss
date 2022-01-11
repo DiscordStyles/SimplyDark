@@ -10,15 +10,15 @@
 	color: #fff;
 }
 
-.bg-h5JY_x {
+.bg-1QIAus {
 	@include hsl(0%);
 }
 
-.tabBody-3YRQ8W:before {
+.tabBody-2dgbAs:before {
 	content: none;
 }
 
-.baseLayer-35bLyl {
+.baseLayer-W6S8cY {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
@@ -53,15 +53,15 @@
 
 // Tooltips
 #app-mount {
-	.tooltipPrimary-1d1ph4 {
+	.tooltipPrimary-3qLMbS {
 		--text-muted: var(--text-normal);
 		@include hsl(30%);
 	}
-	.guildNameText-3Zwx4p,
-	.tooltipContent-bqVLWK {
+	.guildNameText-jBFbNC,
+	.tooltipContent-Nejnvh {
 		color: #fff;
 	}
-	.tooltipPointer-3ZfirK {
+	.tooltipPointer-3L49xb {
 		border-top-color: hsl(
 			var(--hue)
 			var(--saturation)
@@ -69,7 +69,7 @@
 		);
 	}
 
-	.info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+	.info-1sUqUG .colorMuted-20987_:first-child:before {
 		content: "SimplyDark v" var(--simplydark-version);
 		text-transform: none;
 		display: block;

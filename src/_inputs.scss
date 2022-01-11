@@ -27,7 +27,7 @@
 	}
 
 	// Inputs/Textarea
-	.input-cIJ7To {
+	.input-2g-os5 {
 		@include hsl(3%);
 		border: none;
 		transition: background-color .15s ease;
@@ -40,7 +40,7 @@
 	}
 
 	// Radio groups
-	[role="radiogroup"] .item-26Dhrx {
+	[role="radiogroup"] .item-2idW98 {
 		@include hsl(4%);
 		&:hover {
 			@include hsl(6%);
@@ -54,24 +54,24 @@
 	}
 
 	// Slider
-	.slider-1PF9SW {
-		.bar-2Qqk5Z {
+	.slider-1NC-Gf {
+		.bar-1Bhnl9 {
 			@include hsl(15%);
 		}
-		.barFill-23-gu- {
+		.barFill-2Bh7CX {
 			background: rgb(var(--accent));
 		}
-		.markDash-3hAolZ {
+		.markDash-yk2kJ- {
 			@include hsl(15%);
 		}
 	}
 
 	// Checkboxes
-	.colorDefault-2K3EoJ .checkbox-3s5GYZ,
-	.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+	.colorDefault-CDqZdO .checkbox-hADx5o,
+	.colorDefault-CDqZdO .radioSelection-1UHp0b {
 		color: rgb(var(--accent));
 	}
-	.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+	.colorDefault-CDqZdO.focused-3qFvc8 .check-3HZJs4 {
 		color: #fff;
 	}
 
@@ -79,7 +79,7 @@
 	.bd-switch-handle {
 		rx: 0;
 	}
-	.container-3auIfb {
+	.container-2nx-BQ {
 		rect {
 			rx: 0;
 		}
@@ -112,7 +112,7 @@
 	}
 
 	// Keybind
-	.container-1nZlH6 {
+	.container-30qY7E {
 		@include hsl(3%);
 		@include hsl(3%, 'border-color');
 		&:hover {

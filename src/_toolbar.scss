@@ -1,13 +1,13 @@
 @use './mixins' as *;
 
-#app-mount .container-1r6BKw {
+#app-mount .container-ZMc96U {
 	@include hsl(8%);
 
-	.children-19S4PO:after {
+	.children-3xh0VB:after {
 		content: none;
 	}
 
-	.searchBar-3dMhjb {
+	.searchBar-zdmu7v {
 		@include hsl(0%);
 	}
 }

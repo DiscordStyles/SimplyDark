@@ -1,16 +1,16 @@
 @use './mixins' as *;
 
-#app-mount .wrapper-3NnKdC {
+#app-mount .wrapper-1_HaEi {
 	@include hsl(6%);
 
-	.scroller-1Bvpku {
+	.scroller-3X7KbA {
 		background: transparent;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
-	.wrapper-1BJsBx {
+	.wrapper-3kah-n {
 		border-radius: var(--server-shape) !important;
 		overflow: hidden;
 	}
@@ -20,37 +20,37 @@
 		border-radius: var(--server-shape) !important;
 	}
 	
-	.childWrapper-anI2G9 {
+	.childWrapper-1j_1ub {
 		@include hsl(10%);
 		&:hover {
 			@include hsl(15%);
 		}
 	}
-	.circleIconButton-1QV--U {
+	.circleIconButton-1VxDrg {
 		border-radius: var(--server-shape) !important;
 		&:not(.selected-1JjBPm) {
 			@include hsl(10%);
 		}
 	}
 
-	.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+	.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
 		background: rgb(var(--accent));
 	}
 
 	// Folders
-	.folder-1hbNCn {
+	.folder-241Joy {
 		@include hsl(15%);
 		border-radius: var(--server-shape) !important;
 	}
-	.folderIconWrapper-1_bOZe {
+	.folderIconWrapper-1oRIZr {
 		border-radius: var(--server-shape) !important;
 	}
-	.guildIcon-2Tpnad {
+	.guildIcon-2I5sfu {
 		border-radius: var(--server-shape) !important;
 	}
 }
 
 // Windows
-.platform-win .scroller-1Bvpku {
+.platform-win .scroller-3X7KbA {
 	padding-top: 12px;
 }

@@ -1,23 +1,23 @@
 @use './mixins' as *;
 
-#app-mount .members-1998pB {
+#app-mount .members-3WRCEx {
 	@include hsl(5%);
 	& > div {
 		background: transparent;
 	}
 
-	.member-3-YXUe {
+	.member-2gU6Ar {
 		padding: 0;
 		margin: 0;
 		max-width: unset;
-		&:hover .layout-2DM8Md {
+		&:hover .layout-1qmrhw {
 			@include hsl(8%);
 		}
-		&.selected-aXhQR6 .layout-2DM8Md {
+		&.selected-1-Z6gm .layout-1qmrhw {
 			@include hsl(10%);
 		}
 	}
-	.layout-2DM8Md {
+	.layout-1qmrhw {
 		padding: 0 8px 0 16px;
 	}
 }

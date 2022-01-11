@@ -2,47 +2,47 @@
 
 #app-mount {
 	// General modal
-	.root-1gCeng {
+	.root-g14mjS {
 		@include hsl(0%);
 		box-shadow: none;
 	}
-	.footer-2gL1pp,
-	.footer-3mqk7D {
+	.footer-31IekZ,
+	.footer-VCsJQY {
 		box-shadow: none;
 		@include hsl(4%);
 	}
 
 	// File upload
-	.uploadModal-2ifh8j {
+	.uploadModal-2ie9O_ {
 		@include hsl(0%);
-		.scrollableContainer-2NUZem {
+		.scrollableContainer-15eg7h {
 			@include hsl(3%);
 		}
 	}
 
 	// User modal
-	.body-r6_QPy,
-	.topSection-y3p-_D {
+	.body-1Ukv50,
+	.topSection-13QKHs {
 		@include hsl(6%);
 	}
-	.avatar-AvHqJA {
+	.avatar-3QF_VA {
 		@include hsl(6%);
 		@include hsl(6%, 'border-color');
 	}
-	.tabBarContainer-37hZsr {
+	.tabBarContainer-sCZC4w {
 		@include hsl(12%, 'border-color');
 	}
 
 	// Quickswitch
-	.quickswitcher-3JagVE {
+	.quickswitcher-pKcM9U {
 		@include hsl(4%);
 		box-shadow: none;
 	}
-	.input-2VB9rf {
+	.input-3r5zZY {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.scroller-zPkAnE {
+	.scroller-2qwVWY {
 		background: transparent;
 		margin: 0;
 		&::-webkit-scrollbar {
