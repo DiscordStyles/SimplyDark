@@ -1,6 +1,6 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
-  --simplydark-version: "3.0.0";
+  --simplydark-version: "3.0.1";
   --font-primary: var(--font);
   --font-display: var(--font-primary) !important;
   --discord-red: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
@@ -192,13 +192,13 @@ html.theme-light #app-mount:after {
   margin-left: 0;
   padding: 0;
 }
-#app-mount .sidebar-1tnWFu .channel-1Shao0 .layout-1qmrhw {
+#app-mount .sidebar-1tnWFu .channel-1Shao0 .layout-1LjVue {
   padding: 0 8px 0 16px;
 }
-#app-mount .sidebar-1tnWFu .channel-1Shao0:hover .layout-1qmrhw {
+#app-mount .sidebar-1tnWFu .channel-1Shao0:hover .interactive-1vLZ_I {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .sidebar-1tnWFu .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw {
+#app-mount .sidebar-1tnWFu .channel-1Shao0 .selected-3veCBZ {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
 #app-mount .sidebar-1tnWFu .content-1Tgc42 {
