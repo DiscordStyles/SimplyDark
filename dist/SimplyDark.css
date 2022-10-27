@@ -386,6 +386,7 @@ html.theme-light #app-mount:after {
   padding: 0;
   margin: 0;
   max-width: unset;
+  background: transparent;
 }
 #app-mount .members-3WRCEx .member-2gU6Ar:hover .layout-1qmrhw {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
@@ -465,74 +466,74 @@ html.theme-light #app-mount:after {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
 
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
   transform: scale(1) !important;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .sidebarRegionScroller-FXiQOh {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebarRegionScroller-FXiQOh {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .sidebar-nqHbhN {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebar-nqHbhN {
   padding-right: 0;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .item-3XjbnG {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .item-3XjbnG {
   margin: 0;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .item-3XjbnG:hover {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .item-3XjbnG:hover {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .item-3XjbnG.selected-g-kMVV {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .item-3XjbnG.selected-g-kMVV {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 10%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .item-3XjbnG.selected-g-kMVV.premiumTabItem-1QTfBr {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .item-3XjbnG.selected-g-kMVV.premiumTabItem-1QTfBr {
   background: rgb(var(--accent)) !important;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .contentRegionScroller-2_GT_N {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegionScroller-2_GT_N {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .formNotice-2nS8ey {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .formNotice-2nS8ey {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border: none;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountProfileCard-lbN7n- {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountProfileCard-lbN7n- {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountProfileCard-lbN7n- .background-3d_SjE {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountProfileCard-lbN7n- .background-3d_SjE {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountProfileCard-lbN7n- .fieldList-in8WkP {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountProfileCard-lbN7n- .fieldList-in8WkP {
   background: transparent;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .authedApp-1tw-eT {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .authedApp-1tw-eT {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border: none;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountList-305sx3,
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .connection-1fbD7X {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountList-305sx3,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connection-1fbD7X {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .accountBtnInner-3XK70s,
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .integration-3kMeY4,
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .connectionHeader-2rV1ze {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountBtnInner-3XK70s,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .integration-3kMeY4,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionHeader-2rV1ze {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .paymentPane-ut5qKZ {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .paymentPane-ut5qKZ {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .paymentPane-ut5qKZ .scrollerBase-_bVAAt {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .paymentPane-ut5qKZ .scrollerBase-_bVAAt {
   border: none;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .paginator-1eqD2g {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .paginator-1eqD2g {
   background: transparent;
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .payment-2bOh4k {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .payment-2bOh4k {
   background: transparent;
   border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
-#app-mount .layer-86YKbF[aria-label*=SETTINGS] .expandedInfo-1W31i3 {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .expandedInfo-1W31i3 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
 }
 
@@ -703,48 +704,11 @@ html.theme-light #app-mount:after {
 #app-mount .menu-1QACrS .item-1OdjEX + .layer-2aCOJ3 {
   margin-left: -4px;
 }
-#app-mount .userPopout-2j1gM4 {
-  box-shadow: none;
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+#app-mount .userProfileInnerNonPremium-1XjSjn {
+  background: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .banner-1YaD3N {
-  height: 120px;
-  background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center/cover !important;
-}
-#app-mount .userPopout-2j1gM4[style*="--user-background"] .avatarPositionNormal-2jWoC2 {
-  top: 76px;
-}
-#app-mount .avatar-2Vndt_ {
-  border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
-}
-#app-mount .body-2wLx-E {
-  padding: 0 16px 16px !important;
-}
-#app-mount .body-2wLx-E::-webkit-scrollbar {
-  display: none;
-}
-#app-mount .bodyInnerWrapper-2bQs1k {
-  background: transparent;
-}
-#app-mount .note-Go5ZP2 {
-  margin: 0;
-}
-#app-mount .textarea-_59yqs,
-#app-mount .input-2z42oC {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
-  border: none;
-}
-#app-mount .textarea-_59yqs:hover,
-#app-mount .input-2z42oC:hover {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
-}
-#app-mount .textarea-_59yqs:focus,
-#app-mount .input-2z42oC:focus {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
-}
-#app-mount .footer-3naVBw {
-  background: transparent;
+#app-mount .userProfileInnerNonPremium-1XjSjn .overlayBackground-1KgwVi {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
 }
 #app-mount .container-2McqkF {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
@@ -906,17 +870,6 @@ html.theme-light #app-mount:after {
 }
 #app-mount .uploadModal-2ie9O_ .scrollableContainer-15eg7h {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
-}
-#app-mount .body-1Ukv50,
-#app-mount .topSection-13QKHs {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
-}
-#app-mount .avatar-3QF_VA {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
-  border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
-}
-#app-mount .tabBarContainer-sCZC4w {
-  border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
 }
 #app-mount .quickswitcher-pKcM9U {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
