@@ -47,48 +47,11 @@
 	}
 
 	// User popout
-	.userPopout-2j1gM4 {
-		box-shadow: none;
-		@include hsl(8%);
-		&[style*="--user-background"] {
-			.banner-1YaD3N {
-				height: 120px;
-    		background: var(--background-floating) var(--user-background) var(--user-popout-position, center) center / cover !important;
-			}
-			.avatarPositionNormal-2jWoC2 {
-				top: 76px;
-			}
+	.userProfileInnerNonPremium-1XjSjn {
+		@include hsl(8%, 'background');
+		.overlayBackground-1KgwVi {
+			@include hsl(3%);
 		}
-	}
-	.avatar-2Vndt_ {
-		@include hsl(8%, 'border-color');
-		@include hsl(8%);
-	}
-	.body-2wLx-E {
-		padding: 0 16px 16px !important;
-		&::-webkit-scrollbar {
-			display: none;
-		}
-	}
-	.bodyInnerWrapper-2bQs1k {
-		background: transparent;
-	}
-	.note-Go5ZP2 {
-		margin: 0;
-	}
-	.textarea-_59yqs,
-	.input-2z42oC {
-		@include hsl(4%);
-		border: none;
-		&:hover {
-			@include hsl(2%);
-		}
-		&:focus {
-			@include hsl(0%);
-		}
-	}
-	.footer-3naVBw {
-		background: transparent;
 	}
 
 	// Search suggestions

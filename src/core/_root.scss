@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+	--hue: 0; /* The hue of Discord | Default: 0 */
+	--saturation: 0%; /* The saturation of --hue | MUST END IN % | Default: 0% */
+	--lightness: 8%; /* The lightness of both --hue and --saturation | MUST END IN % | Default: 8% */
+
+	--accent: 59, 130, 246; /* Custom colour used for pings, mentions, links, discord blurple */
+
+	--avatar-shape: 0%; /* The shape of avatars | MUST END IN % | Default: 0% */
+	--server-shape: 0%; /* The shape of server avatars | MUST END IN % | Default: 0% */
+
+	--font: 'Inter'; /* Custom font */
+}
