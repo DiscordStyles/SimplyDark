@@ -3,6 +3,10 @@
 #app-mount .chat-2ZfjoI {
 	@include hsl(0%);
 
+	.chatContent-3KubbW {
+		background: transparent;
+	}
+
 	.content-1jQy2l:before {
 		content: none;
 	}
@@ -110,14 +114,51 @@
 		margin-top: 0;
 	}
 	.replyBar-1oi75v {
+		@include hsl(8%);
+	}
+}
+
+// Threads
+#app-mount {
+	.container-3XgAHv,
+	.chatContent-3KubbW {
+		background: transparent;
+	}
+	.resizeHandle-PBRzPC {
 		@include hsl(6%);
+	}
+
+	// Threads
+	.container-3YcgdM {
+		@include hsl(2%);
+		border: none;
+	}
+	.divider-AZrXIA {
+		display: none;
+	}
+	.container-3wLKDe {
+		background: transparent;
+	}
+	.container-2qVG6q {
+		@include hsl(4%);
+		transition: none;
+		&:hover {
+			@include hsl(7%);
+			transform: none;
+			box-shadow: none;
+		}
+	}
+
+	.container-JhuCwn {
+		@include hsl(8%);
 	}
 }
 
 // Chatbox
 #app-mount {
 	.chat-3JZdy8,
-	.chat-2ZfjoI {
+	.chat-2ZfjoI,
+	.chat-25x62K {
 		&::before {
 			content: none;
 		}

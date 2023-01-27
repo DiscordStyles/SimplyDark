@@ -39,19 +39,22 @@
 	}
 
 	// DMs
-	.channel-1Shao0 {
+	.interactive-26HRN_ {
+		background: transparent;
+		&:hover {
+			@include hsl(4%);
+		}
+		&.selected-26oxtA {
+			@include hsl(6%);
+		}
+	}
+	.link-39sEB3 {
 		max-width: unset;
 		margin-left: 0;
 		padding: 0;
+		background: transparent;
 		.layout-1LjVue {
 			padding: 0 8px 0 16px;
-		}
-
-		&:hover .interactive-1vLZ_I {
-			@include hsl(4%);
-		}
-		.selected-3veCBZ {
-			@include hsl(6%);
 		}
 	}
 
@@ -95,5 +98,8 @@
 	.container-1zzFcN {
 		border: none;
 		padding-bottom: 0;
+	}
+	.container-YkUktl {
+		background: transparent;
 	}
 }
