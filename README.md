@@ -2,8 +2,11 @@
 A sharp and simple theme for Discord.
 
 - - -
-BetterDiscord Download: [https://betterdiscord.app/theme/SimplyDark](https://betterdiscord.app/Download?id=394)  
-Powercord Install: `git clone https://github.com/DiscordStyles/SimplyDark`  
+BetterDiscord Download:
+- Open https://raw.githubusercontent.com/DiscordStyles/SimplyDark/deploy/SimplyDark.theme.css
+- Save As.
+- Make sure to set "Save as type" to "All files".
+  
 Vencord link: `https://raw.githubusercontent.com/DiscordStyles/SimplyDark/deploy/SimplyDark.theme.css`
 
 - - -
