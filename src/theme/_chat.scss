@@ -1,13 +1,13 @@
 @use './mixins' as *;
 
-#app-mount .chat-2ZfjoI {
+#app-mount .chat-9g_3Xj {
 	@include hsl(0%);
 
-	.chatContent-3KubbW {
+	.chatContent-2O4SXb {
 		background: transparent;
 	}
 
-	.content-1jQy2l:before {
+	.content-18rAwf:before {
 		content: none;
 	}
 
@@ -121,7 +121,7 @@
 // Threads
 #app-mount {
 	.container-3XgAHv,
-	.chatContent-3KubbW {
+	.chatContent-2O4SXb {
 		background: transparent;
 	}
 	.resizeHandle-PBRzPC {
@@ -157,7 +157,7 @@
 // Chatbox
 #app-mount {
 	.chat-3JZdy8,
-	.chat-2ZfjoI,
+	.chat-9g_3Xj,
 	.chat-25x62K {
 		&::before {
 			content: none;
@@ -169,7 +169,7 @@
 		}
 
 		// Chatbox
-		.form-3gdLxP {
+		.form-3qe0Ni {
 			padding: 0;
 			margin: 0;
 			min-height: 53px;
@@ -177,7 +177,7 @@
 				content: none;
 			}
 		}
-		.channelTextArea-1FufC0 {
+		.channelTextArea-1deLlK {
 			margin-bottom: 0;
 		}
 		.scrollableContainer-15eg7h {
@@ -185,7 +185,7 @@
 			min-height: 53px;
 		}
 		.slateTextArea-27tjG0,
-		.placeholder-1_mJY1 {
+		.placeholder-1rCBhr {
 			padding: 16px 0 15px;
 			box-sizing: border-box;
 		}

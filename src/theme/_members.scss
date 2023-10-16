@@ -1,24 +1,29 @@
 @use './mixins' as *;
 
-#app-mount .members-3WRCEx {
-	@include hsl(5%);
-	& > div {
-		background: transparent;
+#app-mount {
+	.container-2vWgD2 {
+		@include hsl(5%);
 	}
-
-	.member-2gU6Ar {
-		padding: 0;
-		margin: 0;
-		max-width: unset;
-		background: transparent;
-		&:hover .layout-1qmrhw {
-			@include hsl(8%);
+	.members-2y1nVj {
+		@include hsl(5%);
+		& > div {
+			background: transparent;
 		}
-		&.selected-1-Z6gm .layout-1qmrhw {
-			@include hsl(10%);
+	
+		.member-2gU6Ar {
+			padding: 0;
+			margin: 0;
+			max-width: unset;
+			background: transparent;
+			&:hover .layout-1qmrhw {
+				@include hsl(8%);
+			}
+			&.selected-1-Z6gm .layout-1qmrhw {
+				@include hsl(10%);
+			}
 		}
-	}
-	.layout-1qmrhw {
-		padding: 0 8px 0 16px;
+		.layout-1qmrhw {
+			padding: 0 8px 0 16px;
+		}
 	}
 }
