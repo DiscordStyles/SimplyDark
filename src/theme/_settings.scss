@@ -1,13 +1,13 @@
 @use './mixins' as *;
 
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
+#app-mount .layer__2efaa :not(.baseLayer__8fda3) {
 	transform: scale(1) !important;
 
 	// Sidebar
-	.sidebarRegionScroller-FXiQOh {
+	.sidebarRegionScroller__1fa7e {
 		@include hsl(2%);
 	}
-	.sidebar-nqHbhN {
+	.sidebar__9e3e2 {
 		padding-right: 0;
 	}
 	.item-3XjbnG {
@@ -24,7 +24,7 @@
 	}
 
 	// Main content
-	.contentRegionScroller-2_GT_N {
+	.contentRegionScroller__86c79 {
 		@include hsl(0%);
 	}
 
@@ -35,16 +35,16 @@
 	}
 
 	// My Account
-	.accountProfileCard-lbN7n- {
+	.accountProfileCard__22589 {
 		@include hsl(4%);
-		.avatar-3mTjvZ {
+		.avatar__6c108 {
 			@include hsl(4%);
 			@include hsl(4%, 'border-color');
 		}
-		.background-3d_SjE {
+		.background_b61fcc {
 			@include hsl(6%);
 		}
-		.fieldList-in8WkP {
+		.fieldList_aab0de {
 			background: transparent;
 		}
 	}
@@ -67,20 +67,20 @@
 	}
 
 	// Billing
-	.paymentPane-ut5qKZ {
+	.paymentPane__9cf01 {
 		@include hsl(4%);
 		.scrollerBase-_bVAAt {
 			border: none;
 		}
 	}
-	.paginator-1eqD2g {
+	.paginator_e620d3 {
 		background: transparent;
 	}
-	.payment-2bOh4k {
+	.payment__7d702 {
 		background: transparent;
 		@include hsl(8%, 'border-color');
 	}
-	.expandedInfo-1W31i3 {
+	.expandedInfo__47bad {
 		@include hsl(2%);
 	}
 }

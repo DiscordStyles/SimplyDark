@@ -10,15 +10,15 @@
 	color: #fff;
 }
 
-.bg-1QIAus {
+.bg__12180 {
 	@include hsl(0%);
 }
 
-.tabBody-2dgbAs:before {
+.tabBody_b3d268:before {
 	content: none;
 }
 
-.baseLayer-W6S8cY {
+.baseLayer__8fda3 {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
@@ -57,7 +57,7 @@
 		--text-muted: var(--text-normal);
 		@include hsl(30%);
 	}
-	.guildNameText-jBFbNC,
+	.guildNameText__16f3c,
 	.tooltipContent-Nejnvh {
 		color: #fff;
 	}
@@ -69,7 +69,7 @@
 		);
 	}
 
-	.info-3pQQBb .text-xs-normal-3O7EaX:first-child:before {
+	.info__755e1 .text-xs-normal_ccc5fb:first-child:before {
 		content: "SimplyDark v" var(--simplydark-version);
 		text-transform: none;
 		display: block;
