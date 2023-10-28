@@ -1,31 +1,31 @@
 @use './mixins' as *;
 
-#app-mount .sidebar-1tnWFu {
+#app-mount .sidebar_ded4b5 {
 	@include hsl(2%);
 
-	.privateChannels-oVe7HL,
-	.scroller-WSmht3,
-	.container-1NXEtd {
+	.privateChannels__93473,
+	.scroller__4b984,
+	.container__590e2 {
 		background: transparent;
 	}
-	.scroller-1ox3I2,
-	.scroller-WSmht3 {
+	.scroller_f0f183,
+	.scroller__4b984 {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// Search bar
-	.searchBar-3TnChZ {
+	.searchBar_e4ea2a {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.searchBarComponent-3N7dCG {
+	.searchBarComponent__22760 {
 		@include hsl(4%);
 	}
 
 	// Header
-	.header-3OsQeK {
+	.header__104ca {
 		@include hsl(8%);
 		box-shadow: none;
 	}
@@ -34,73 +34,73 @@
 	.content-2a4AW9 > div[style="height: 84px;"] {
 		height: 135px !important;
 	}
-	.animatedContainer-2laTjx {
+	.animatedContainer__341f6 {
 		top: 48px;
 	}
 
 	// DMs
-	.interactive-26HRN_ {
+	.interactive__776ee {
 		background: transparent;
 		&:hover {
 			@include hsl(4%);
 		}
-		&.selected-26oxtA {
+		&.selected_d94cf9 {
 			@include hsl(6%);
 		}
 	}
-	.link-39sEB3 {
+	.link__2e8e1 {
 		max-width: unset;
 		margin-left: 0;
 		padding: 0;
 		background: transparent;
-		.layout-1LjVue {
+		.layout__59abc {
 			padding: 0 8px 0 16px;
 		}
 	}
 
 	// Channel
-	.content-1Tgc42 {
+	.content_b60865 {
 		margin: 0;
 	}
-	.wrapper-NhbLHG {
+	.wrapper__7bcde {
 		padding: 0;
-		&.modeUnread-3Cxepe {
+		&.modeUnread_f74c03 {
 			svg {
 				color: #fff;
 			}
 		}
 		&:hover {
-			.content-1gYQeQ {
+			.wrapper__7bcde {
 				@include hsl(4%);
 			}
 		}
-		&.modeSelected-3DmyhH {
+		&.modeSelected__487d6 {
 			svg {
 				color: #fff;
 			}
-			.content-1gYQeQ {
+			.wrapper__7bcde {
 				@include hsl(6%);
 			}
 		}
 	}
-	.content-1gYQeQ {
+	.wrapper__7bcde {
 		padding: 0 8px 0 16px;
 		margin: 0;
 	}
-	.unread-36eUEm {
+	.unread__48cf4 {
 		z-index: 1;
 	}
 
 	// Panels
-	.panels-3wFtMD {
+	.panels__58331 {
 		@include hsl(5%);
 	}
-	.container-1CH86i {
+	.container_ca50b9 {
 		border: none;
 		padding-bottom: 0;
 	}
-	.container-1CH86i,
-	.activityPanel-9icbyU {
+	.container_ca50b9,
+	.activityPanel__22355 {
 		background: transparent;
 	}
 }
