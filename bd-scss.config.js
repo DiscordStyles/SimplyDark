@@ -12,5 +12,5 @@ export default {
 	base: {
 		output: 'dist/dist'
 	},
-	baseImport: 'https://discordstyles.github.io/SimplyDark/SimplyDark.css',
+	baseImport: 'https://discordstyles.github.io/SimplyDark/dist/SimplyDark.css',
 }
