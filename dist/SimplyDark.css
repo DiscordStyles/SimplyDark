@@ -214,21 +214,25 @@ html.theme-light #app-mount:after {
 #app-mount .sidebar_ded4b5 .wrapper__7bcde.modeUnread_f74c03 svg {
   color: #fff;
 }
-#app-mount .sidebar_ded4b5 .wrapper__7bcde:hover .wrapper__7bcde {
+#app-mount .sidebar_ded4b5 .wrapper__7bcde:hover .link__95dc0 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
 #app-mount .sidebar_ded4b5 .wrapper__7bcde.modeSelected__487d6 svg {
   color: #fff;
 }
-#app-mount .sidebar_ded4b5 .wrapper__7bcde.modeSelected__487d6 .wrapper__7bcde {
+#app-mount .sidebar_ded4b5 .wrapper__7bcde.modeSelected__487d6 .link__95dc0 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
 #app-mount .sidebar_ded4b5 .wrapper__7bcde {
-  padding: 0 8px 0 16px;
+  padding: 0;
   margin: 0;
+}
+#app-mount .sidebar_ded4b5 .link__95dc0 {
+  padding: 6px 16px;
 }
 #app-mount .sidebar_ded4b5 .unread__48cf4 {
   z-index: 1;
+  left: 0;
 }
 #app-mount .sidebar_ded4b5 .panels__58331 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 5%));
@@ -521,74 +525,74 @@ html.theme-light #app-mount:after {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) {
   transform: scale(1) !important;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .sidebar__9e3e2 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebar__9e3e2 {
   padding-right: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .item-3XjbnG {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .item-3XjbnG {
   margin: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .item-3XjbnG:hover {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .item-3XjbnG:hover {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .item-3XjbnG.selected-g-kMVV {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .item-3XjbnG.selected-g-kMVV {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 10%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .item-3XjbnG.selected-g-kMVV.premiumTabItem-1QTfBr {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .item-3XjbnG.selected-g-kMVV.premiumTabItem-1QTfBr {
   background: rgb(var(--accent)) !important;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .contentRegionScroller__86c79 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegionScroller__86c79 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .formNotice-2nS8ey {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .formNotice-2nS8ey {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountProfileCard__22589 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountProfileCard__22589 .avatar__6c108 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 .avatar__6c108 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountProfileCard__22589 .background_b61fcc {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 .background_b61fcc {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountProfileCard__22589 .fieldList_aab0de {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 .fieldList_aab0de {
   background: transparent;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .authedApp-1tw-eT {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .authedApp-1tw-eT {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountList-305sx3,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connection-1fbD7X {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountList-305sx3,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connection-1fbD7X {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .accountBtnInner-3XK70s,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .integration-3kMeY4,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .connectionHeader-2rV1ze {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountBtnInner-3XK70s,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .integration-3kMeY4,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionHeader-2rV1ze {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .paymentPane__9cf01 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .paymentPane__9cf01 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .paymentPane__9cf01 .scrollerBase-_bVAAt {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .paymentPane__9cf01 .scrollerBase-_bVAAt {
   border: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .paginator_e620d3 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .paginator_e620d3 {
   background: transparent;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .payment__7d702 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .payment__7d702 {
   background: transparent;
   border-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .expandedInfo__47bad {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .expandedInfo__47bad {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
 }
 
