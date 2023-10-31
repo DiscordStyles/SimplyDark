@@ -230,6 +230,9 @@ html.theme-light #app-mount:after {
 #app-mount .sidebar_ded4b5 .link__95dc0 {
   padding: 6px 16px;
 }
+#app-mount .sidebar_ded4b5 .typeThread__2f91c .link__95dc0 {
+  padding-left: 42px;
+}
 #app-mount .sidebar_ded4b5 .unread__48cf4 {
   z-index: 1;
   left: 0;
