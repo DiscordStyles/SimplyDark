@@ -70,7 +70,7 @@
 			}
 		}
 		&:hover {
-			.wrapper__7bcde {
+			.link__95dc0 {
 				@include hsl(4%);
 			}
 		}
@@ -78,17 +78,21 @@
 			svg {
 				color: #fff;
 			}
-			.wrapper__7bcde {
+			.link__95dc0 {
 				@include hsl(6%);
 			}
 		}
 	}
 	.wrapper__7bcde {
-		padding: 0 8px 0 16px;
+		padding: 0;
 		margin: 0;
+	}
+	.link__95dc0 {
+		padding: 6px 16px;
 	}
 	.unread__48cf4 {
 		z-index: 1;
+		left: 0;
 	}
 
 	// Panels
