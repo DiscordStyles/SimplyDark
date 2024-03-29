@@ -7,15 +7,15 @@
 		box-shadow: none;
 	}
 	.footer-31IekZ,
-	.footer_ceda43 {
+	.footer_f06dbb {
 		box-shadow: none;
 		@include hsl(4%);
 	}
 
 	// File upload
-	.uploadModal_eae2a0 {
+	.uploadModal__6eb75 {
 		@include hsl(0%);
-		.scrollableContainer__33e06 {
+		.scrollableContainer_ff917f {
 			@include hsl(3%);
 		}
 	}
@@ -24,15 +24,15 @@
 	
 
 	// Quickswitch
-	.quickswitcher_a3d29a {
+	.quickswitcher_b5bb0a {
 		@include hsl(4%);
 		box-shadow: none;
 	}
-	.input__848cd {
+	.input__2a648 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.scroller__52ae7 {
+	.scroller_d4b86c {
 		background: transparent;
 		margin: 0;
 		&::-webkit-scrollbar {

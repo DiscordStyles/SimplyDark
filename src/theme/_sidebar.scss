@@ -1,31 +1,31 @@
 @use './mixins' as *;
 
-#app-mount .sidebar_ded4b5 {
+#app-mount .sidebar_e031be {
 	@include hsl(2%);
 
-	.privateChannels__93473,
-	.scroller__4b984,
-	.container__590e2 {
+	.privateChannels__9b518,
+	.scroller__89969,
+	.container__7e23c {
 		background: transparent;
 	}
-	.scroller_f0f183,
-	.scroller__4b984 {
+	.scroller__1f498,
+	.scroller__89969 {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// Search bar
-	.searchBar_e4ea2a {
+	.searchBar__621ec {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.searchBarComponent__22760 {
+	.searchBarComponent__8f95f {
 		@include hsl(4%);
 	}
 
 	// Header
-	.header__104ca {
+	.header__77c95 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
@@ -34,21 +34,21 @@
 	.content-2a4AW9 > div[style="height: 84px;"] {
 		height: 135px !important;
 	}
-	.animatedContainer__341f6 {
+	.animatedContainer__0e828 {
 		top: 48px;
 	}
 
 	// DMs
-	.interactive__776ee {
+	.interactive__0786a {
 		background: transparent;
 		&:hover {
 			@include hsl(4%);
 		}
-		&.selected_d94cf9 {
+		&.selected__37292 {
 			@include hsl(6%);
 		}
 	}
-	.link__2e8e1 {
+	.link__3a950 {
 		max-width: unset;
 		margin-left: 0;
 		padding: 0;
@@ -59,38 +59,38 @@
 	}
 
 	// Channel
-	.content_b60865 {
+	.content__3b07e {
 		margin: 0;
 	}
-	.wrapper__7bcde {
+	.wrapper__612a5 {
 		padding: 0;
-		&.modeUnread_f74c03 {
+		&.modeUnreadImportant__35358 {
 			svg {
 				color: #fff;
 			}
 		}
 		&:hover {
-			.link__95dc0 {
+			.link_ddbb36 {
 				@include hsl(4%);
 			}
 		}
-		&.modeSelected__487d6 {
+		&.modeSelected__473f1 {
 			svg {
 				color: #fff;
 			}
-			.link__95dc0 {
+			.link_ddbb36 {
 				@include hsl(6%);
 			}
 		}
 	}
-	.wrapper__7bcde {
+	.wrapper__612a5 {
 		padding: 0;
 		margin: 0;
 	}
-	.link__95dc0 {
+	.link_ddbb36 {
 		padding: 6px 16px;
 	}
-	.typeThread__2f91c .link__95dc0 {
+	.typeThread__5fb37 .link_ddbb36 {
 		padding-left: 42px;
 	}
 	.unread__48cf4 {
@@ -102,12 +102,12 @@
 	.panels__58331 {
 		@include hsl(5%);
 	}
-	.container_ca50b9 {
+	.container_debb33 {
 		border: none;
 		padding-bottom: 0;
 	}
-	.container_ca50b9,
-	.activityPanel__22355 {
+	.container_debb33,
+	.activityPanel_b73e7a {
 		background: transparent;
 	}
 }
