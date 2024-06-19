@@ -1,31 +1,31 @@
 @use './mixins' as *;
 
-#app-mount .sidebar_e031be {
+#app-mount .sidebar_a4d4d9 {
 	@include hsl(2%);
 
-	.privateChannels__9b518,
-	.scroller__89969,
-	.container__7e23c {
+	.privateChannels_f0963d,
+	.scroller_c47fa9,
+	.container_ee69e0 {
 		background: transparent;
 	}
-	.scroller__1f498,
-	.scroller__89969 {
+	.scroller_c43953,
+	.scroller_c47fa9 {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// Search bar
-	.searchBar__621ec {
+	.searchBar_f0963d {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.searchBarComponent__8f95f {
+	.searchBarComponent_f0963d {
 		@include hsl(4%);
 	}
 
 	// Header
-	.header__77c95 {
+	.header_fd6364 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
@@ -34,80 +34,80 @@
 	.content-2a4AW9 > div[style="height: 84px;"] {
 		height: 135px !important;
 	}
-	.animatedContainer__0e828 {
+	.animatedContainer_fd6364 {
 		top: 48px;
 	}
 
 	// DMs
-	.interactive__0786a {
+	.interactive_f5eb4b {
 		background: transparent;
 		&:hover {
 			@include hsl(4%);
 		}
-		&.selected__37292 {
+		&.selected_f5eb4b {
 			@include hsl(6%);
 		}
 	}
-	.link__3a950 {
+	.link_c91bad {
 		max-width: unset;
 		margin-left: 0;
 		padding: 0;
 		background: transparent;
-		.layout__59abc {
+		.layout_f9647d {
 			padding: 0 8px 0 16px;
 		}
 	}
 
 	// Channel
-	.content__3b07e {
+	.content_cdc675 {
 		margin: 0;
 	}
-	.wrapper__612a5 {
+	.wrapper_d8bfb3 {
 		padding: 0;
-		&.modeUnreadImportant__35358 {
+		&.modeUnreadImportant_d8bfb3 {
 			svg {
 				color: #fff;
 			}
 		}
 		&:hover {
-			.link_ddbb36 {
+			.link_d8bfb3 {
 				@include hsl(4%);
 			}
 		}
-		&.modeSelected__473f1 {
+		&.modeSelected_d8bfb3 {
 			svg {
 				color: #fff;
 			}
-			.link_ddbb36 {
+			.link_d8bfb3 {
 				@include hsl(6%);
 			}
 		}
 	}
-	.wrapper__612a5 {
+	.wrapper_d8bfb3 {
 		padding: 0;
 		margin: 0;
 	}
-	.link_ddbb36 {
+	.link_d8bfb3 {
 		padding: 6px 16px;
 	}
-	.typeThread__5fb37 .link_ddbb36 {
+	.typeThread_d8bfb3 .link_d8bfb3 {
 		padding-left: 42px;
 	}
-	.unread__48cf4 {
+	.unread_d8bfb3 {
 		z-index: 1;
 		left: 0;
 	}
 
 	// Panels
-	.panels__58331 {
+	.panels_a4d4d9 {
 		@include hsl(5%);
 	}
-	.container_debb33 {
+	.container_b2ca13 {
 		border: none;
 		padding-bottom: 0;
 	}
-	.container_debb33,
-	.activityPanel_b73e7a {
+	.container_b2ca13,
+	.activityPanel_a4d4d9 {
 		background: transparent;
 	}
 }

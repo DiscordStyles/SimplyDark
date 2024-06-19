@@ -2,20 +2,20 @@
 
 #app-mount {
 	// General modal
-	.root_a28985 {
+	.root_f9a4c9 {
 		@include hsl(0%);
 		box-shadow: none;
 	}
 	.footer-31IekZ,
-	.footer_f06dbb {
+	.footer_f82cc7 {
 		box-shadow: none;
 		@include hsl(4%);
 	}
 
 	// File upload
-	.uploadModal__6eb75 {
+	.uploadModal_f82cc7 {
 		@include hsl(0%);
-		.scrollableContainer_ff917f {
+		.scrollableContainer_d0696b {
 			@include hsl(3%);
 		}
 	}
@@ -24,15 +24,15 @@
 	
 
 	// Quickswitch
-	.quickswitcher_b5bb0a {
+	.quickswitcher_f4e139 {
 		@include hsl(4%);
 		box-shadow: none;
 	}
-	.input__2a648 {
+	.input_f4e139 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.scroller_d4b86c {
+	.scroller_f4e139 {
 		background: transparent;
 		margin: 0;
 		&::-webkit-scrollbar {

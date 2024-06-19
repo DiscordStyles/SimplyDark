@@ -1,9 +1,9 @@
 @use './mixins' as *;
 
-#app-mount .wrapper__216eb {
+#app-mount .wrapper_fea3ef {
 	@include hsl(6%);
 
-	.scroller_de945b {
+	.scroller_fea3ef {
 		background: transparent;
 		&::-webkit-scrollbar {
 			display: none;
@@ -26,7 +26,7 @@
 			@include hsl(15%);
 		}
 	}
-	.circleIconButton__05cf2 {
+	.circleIconButton_db6521 {
 		border-radius: var(--server-shape) !important;
 		&:not(.selected-1JjBPm) {
 			@include hsl(10%);
@@ -38,19 +38,19 @@
 	}
 
 	// Folders
-	.folder__17546 {
+	.folder_bc7085 {
 		@include hsl(15%);
 		border-radius: var(--server-shape) !important;
 	}
-	.folderIconWrapper__11165 {
+	.folderIconWrapper_bc7085 {
 		border-radius: var(--server-shape) !important;
 	}
-	.guildIcon_b6bfa7 {
+	.guildIcon_bc7085 {
 		border-radius: var(--server-shape) !important;
 	}
 }
 
 // Windows
-.platform-win .scroller_de945b {
+.platform-win .scroller_fea3ef {
 	padding-top: 12px;
 }

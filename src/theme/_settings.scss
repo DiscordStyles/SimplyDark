@@ -1,13 +1,13 @@
 @use './mixins' as *;
 
-#app-mount .layer_f7d46a:not(.baseLayer__2b890) {
+#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
 	transform: scale(1) !important;
 
 	// Sidebar
-	.sidebarRegionScroller__8113e {
+	.sidebarRegionScroller_c25c6d {
 		@include hsl(2%);
 	}
-	.sidebar__02e8d {
+	.sidebar_c25c6d {
 		padding-right: 0;
 	}
 	.item-3XjbnG {
@@ -24,7 +24,7 @@
 	}
 
 	// Main content
-	.contentRegionScroller__9ae20 {
+	.contentRegionScroller_c25c6d {
 		@include hsl(0%);
 	}
 
@@ -35,16 +35,16 @@
 	}
 
 	// My Account
-	.accountProfileCard__744d8 {
+	.accountProfileCard_b69b77 {
 		@include hsl(4%);
-		.avatar__6c108 {
+		.avatar_b69b77 {
 			@include hsl(4%);
 			@include hsl(4%, 'border-color');
 		}
-		.background__4e802 {
+		.background_b69b77 {
 			@include hsl(6%);
 		}
-		.fieldList__4e6dd {
+		.fieldList_b69b77 {
 			background: transparent;
 		}
 	}
@@ -67,20 +67,20 @@
 	}
 
 	// Billing
-	.paymentPane__541d7 {
+	.paymentPane_f66684 {
 		@include hsl(4%);
 		.scrollerBase-_bVAAt {
 			border: none;
 		}
 	}
-	.paginator__28ba5 {
+	.paginator_f66684 {
 		background: transparent;
 	}
-	.payment_f27ac6 {
+	.payment_a28a08 {
 		background: transparent;
 		@include hsl(8%, 'border-color');
 	}
-	.expandedInfo_efc786 {
+	.expandedInfo_a28a08 {
 		@include hsl(2%);
 	}
 }

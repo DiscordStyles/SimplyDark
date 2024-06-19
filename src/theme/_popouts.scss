@@ -2,14 +2,14 @@
 
 #app-mount {
 	// Scrollbars
-	.scroller_ac6d1c {
+	.scroller_dcade6 {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// General menus
-	.menu__088f7 {
+	.menu_d90b3d {
 		@include hsl(12%);
 		box-shadow: none;
 
@@ -27,15 +27,15 @@
 		.item-1OdjEX {
 			margin: 0;
 			padding: 8px;
-			&.colorDefault-CDqZdO.focused_dcafb9 {
+			&.colorDefault-CDqZdO.focused_d90b3d {
 				@include hsl(9%);
 			}
-			&.colorDanger-3n-KnP.focused_dcafb9 {
+			&.colorDanger-3n-KnP.focused_d90b3d {
 				background: var(--discord-red);
 			}
 			&.colorPremium-vwmYZQ {
 				color: var(--discord-pink);
-				&.focused_dcafb9 {
+				&.focused_d90b3d {
 					background: var(--discord-pink);
 					color: #fff;
 				}
@@ -47,15 +47,15 @@
 	}
 
 	// User popout
-	.userProfileInnerThemedNonPremium_ed9022 {
+	.userProfileInnerThemedNonPremium_c69a7b {
 		@include hsl(8%, 'background');
-		.overlayBackground__2666e {
+		.overlayBackground_c69a7b {
 			@include hsl(3%);
 		}
 	}
 
 	// Search suggestions
-	.container__84c26 {
+	.container_eedf95 {
 		@include hsl(7%);
 		box-shadow: none;
 	}
@@ -73,57 +73,57 @@
 	}
 
 	// Search results
-	.searchResultsWrap__2e184 {
+	.searchResultsWrap_c2b47d {
 		@include hsl(2%);
 	}
-	.searchHeader__4d70e {
+	.searchHeader_b7c924 {
 		@include hsl(6%);
 	}
 	.channelName-3w2Y3c {
 		background: transparent;
 	}
-	.searchResult__00093 {
+	.searchResult_ddc613 {
 		@include hsl(-1%);
 	}
 
 	// Status selector
-	.statusItem__9b512 {
+	.statusItem_e0f739 {
 		padding: 0 4px;
-		.description__38e73 {
+		.description_e0f739 {
 			display: none;
 		}
 	}
 
 	// Auto complete
-	.autocomplete__743a5 {
+	.autocomplete_f23da8 {
 		@include hsl(3%);
 		box-shadow: none;
 		bottom: 100%;
 	}
-	.wrapper__85934 {
+	.wrapper_dc0b29 {
 		@include hsl(4%);
 	}
-	.selected__46356,
-	.selected__46356:hover {
+	.selected_c9d951,
+	.selected_c9d951:hover {
 		@include hsl(12%);
 	}
-	.categoryHeader__70c8e {
+	.categoryHeader_fe2299 {
 		@include hsl(3%);
 	}
-	.base__87e58.selected-3H3-RC {
+	.base_f23da8.selected-3H3-RC {
 		@include hsl(6%);
 	}
 
 	// Pinned messages
-	.messagesPopoutWrap__10dd1 {
+	.messagesPopoutWrap_ac90a2 {
 		@include hsl(7%);
 		box-shadow: none;
 		code,
-		.embedFull__14919 {
+		.embedFull_ad0b71 {
 			@include hsl(12%);
 		}
 	}
-	.header__21b33 {
+	.header_ac90a2 {
 		@include hsl(10%);
 		box-shadow: none;
 		.button__292b6 {
@@ -131,11 +131,11 @@
 			color: #fff;
 		}
 	}
-	.messageGroupWrapper__1fce2 {
+	.messageGroupWrapper_ac90a2 {
 		@include hsl(5%);
 		border: none;
 	}
-	.jumpButton__309d6 {
+	.jumpButton_ac90a2 {
 		@include hsl(20%);
 		color: #fff;
 		&:hover {
@@ -144,54 +144,54 @@
 	}
 
 	// Inbox/Mentions
-	.container_eb737e {
+	.container_f1c3d9 {
 		@include hsl(7%);
 		box-shadow: none;
 	}
-	.icon_c68d99 {
+	.icon_b0914a {
 		background-color: transparent;
 	}
-	.channelHeader_ea0f89 {
+	.channelHeader_f3978e {
 		@include hsl(7%);
 	}
-	.messageContainer_cb3d47 {
+	.messageContainer_ddb5b4 {
 		@include hsl(5%);
 	}
-	.closeButton__58b98 {
+	.closeButton_ddb5b4 {
 		@include hsl(12%);
 	}
 
 	// Emojipicker/Gif selector
-	.contentWrapper_e0bb2c {
+	.contentWrapper_af5dbb {
 		@include hsl(12%);
 	}
-	.container_ec5ce2,
+	.container_effbe2,
 	.container__33507 {
 		@include hsl(3%);
 	}
-	.header_e5d8b2,
+	.header_c6ee36,
 	.header-JHwfVI,
-	.header__643ce {
+	.header_d8cdac {
 		box-shadow: none;
 	}
-	.navButton_b588d0:hover {
+	.navButton_af5dbb:hover {
 		@include hsl(20%);
 	}
-	.navButtonActive__0c878 {
+	.navButtonActive_af5dbb {
 		background: rgb(var(--accent));
 		&:hover {
 			background: rgb(var(--accent));
 		}
 	}
-	.bodyWrapper__5f209,
+	.bodyWrapper_c6ee36,
 	.content-1CboaJ,
-	.wrapper__13e5b {
+	.wrapper_de4721 {
 		@include hsl(7%);
 	}
-	.wrapper__91b2c {
+	.wrapper_e06857 {
 		@include hsl(7%);
 	}
-	.inspector__80c84 {
+	.inspector_c3120f {
 		@include hsl(9%);
 	}
 	.categoryFadeBlurple-1HuV1x {
@@ -201,12 +201,12 @@
 	.result-3OpoO7:hover:after {
 		box-shadow: inset 0 0 0 2px rgb(var(--accent));
 	}
-	.emojiItemSelected__023be {
+	.emojiItemSelected_fbfedd {
 		@include hsl(20%);
 	}
-	.categoryItemDefaultCategorySelected__7d6e0,
-	.guildIconWithoutImage_c23d9e,
-	.guildIcon_ed1ab4 {
+	.categoryItemDefaultCategorySelected_dfa278,
+	.guildIconWithoutImage_bfabc4,
+	.guildIcon_bfabc4 {
 		@include hsl(15%);
 		&:hover {
 			@include hsl(25%);
