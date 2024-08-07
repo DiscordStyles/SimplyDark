@@ -2,7 +2,7 @@
 
 #app-mount {
 	// Scrollbars
-	.scroller_dcade6 {
+	.scroller_d53d65 {
 		&::-webkit-scrollbar {
 			display: none;
 		}
@@ -95,7 +95,7 @@
 	}
 
 	// Auto complete
-	.autocomplete_f23da8 {
+	.autocomplete_bcc24e {
 		@include hsl(3%);
 		box-shadow: none;
 		bottom: 100%;
@@ -110,7 +110,7 @@
 	.categoryHeader_fe2299 {
 		@include hsl(3%);
 	}
-	.base_f23da8.selected-3H3-RC {
+	.base_bcc24e.selected-3H3-RC {
 		@include hsl(6%);
 	}
 
@@ -119,7 +119,7 @@
 		@include hsl(7%);
 		box-shadow: none;
 		code,
-		.embedFull_ad0b71 {
+		.embedFull_b0068a {
 			@include hsl(12%);
 		}
 	}

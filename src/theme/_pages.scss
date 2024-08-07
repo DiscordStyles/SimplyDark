@@ -67,14 +67,14 @@
 	.sidebar_a4d4d9 .scrollerBase-_bVAAt::-webkit-scrollbar {
 		display: none;
 	}
-	.container_e9f61e {
+	.container_d808b0 {
 		margin: 0;
 		padding: 0;
-		&.selected_e9f61e .layout_e9f61e {
+		&.selected_d808b0 .layout_d808b0 {
 			background: rgb(var(--accent));
 		}
 	}
-	.card_eb1ca6 {
+	.card_e90879 {
 		@include hsl(4%);
 		&:hover {
 			@include hsl(8%);
