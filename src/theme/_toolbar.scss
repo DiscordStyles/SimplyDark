@@ -1,9 +1,9 @@
 @use './mixins' as *;
 
-#app-mount .container_fc4f04 {
+#app-mount .container__9293f {
 	@include hsl(8%);
 
-	.children_fc4f04:after {
+	.children__9293f:after {
 		content: none;
 	}
 

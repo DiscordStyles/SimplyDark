@@ -2,40 +2,40 @@
 
 #app-mount {
 	// Global
-	.container_c2739c,
+	.container__133bf,
 	.stageSection-3mAD8V,
-	.scroller_ad8f79,
+	.scroller__4a84a,
 	.scroller__244e5,
-	.applicationStore_cecc86,
+	.applicationStore_f07d62,
 	.pageWrapper_a3a4ce {
 		background: transparent;
 	}
 	
 	// Friends
-	.peopleList_e0840f::-webkit-scrollbar {
+	.peopleList__5ec2f::-webkit-scrollbar {
 		display: none;
 	}
-	.peopleListItem_d51464 {
+	.peopleListItem_cc6179 {
 		margin: 0;
 		padding: 0 16px;
 		&:hover {
 			@include hsl(1.5%);
 		}
 	}
-	.actionButton_e01b91 {
+	.actionButton_f8fa06 {
 		@include hsl(4%);
 		&:hover {
 			@include hsl(12%);
 		}
 	}
 
-	.container_bf550a {
+	.container__7d20c {
 		@include hsl(2%);
 	}
-	.scroller_bf550a {
+	.scroller__7d20c {
 		border: none;
 	}
-	.wrapper_cd82a7 {
+	.wrapper__00943 {
 		border: none;
 		@include hsl(6%);
 		&:hover {
@@ -53,7 +53,7 @@
 	}
 
 	// Library
-	.header_f1629a {
+	.header_adb41f {
 		background: transparent;
 	}
 
@@ -64,13 +64,13 @@
 	}
 
 	// Discovery
-	.sidebar_a4d4d9 .scrollerBase-_bVAAt::-webkit-scrollbar {
+	.sidebar_c48ade .scrollerBase-_bVAAt::-webkit-scrollbar {
 		display: none;
 	}
-	.container_d808b0 {
+	.container__91a9d {
 		margin: 0;
 		padding: 0;
-		&.selected_d808b0 .layout_d808b0 {
+		&.selected__91a9d .layout__91a9d {
 			background: rgb(var(--accent));
 		}
 	}

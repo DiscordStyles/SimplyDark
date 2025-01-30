@@ -1,31 +1,31 @@
 @use './mixins' as *;
 
-#app-mount .sidebar_a4d4d9 {
+#app-mount .sidebar_c48ade {
 	@include hsl(2%);
 
-	.privateChannels_f0963d,
-	.scroller_c47fa9,
-	.container_ee69e0 {
+	.privateChannels__35e86,
+	.scroller__99e7c,
+	.container__2637a {
 		background: transparent;
 	}
-	.scroller_c43953,
-	.scroller_c47fa9 {
+	.scroller__629e4,
+	.scroller__99e7c {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 	}
 
 	// Search bar
-	.searchBar_f0963d {
+	.searchBar__35e86 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
-	.searchBarComponent_f0963d {
+	.searchBarComponent__35e86 {
 		@include hsl(4%);
 	}
 
 	// Header
-	.header_fd6364 {
+	.header_f37cb1 {
 		@include hsl(8%);
 		box-shadow: none;
 	}
@@ -34,80 +34,80 @@
 	.content-2a4AW9 > div[style="height: 84px;"] {
 		height: 135px !important;
 	}
-	.animatedContainer_fd6364 {
+	.animatedContainer_f37cb1 {
 		top: 48px;
 	}
 
 	// DMs
-	.interactive_f5eb4b {
+	.interactive_bf202d {
 		background: transparent;
 		&:hover {
 			@include hsl(4%);
 		}
-		&.selected_f5eb4b {
+		&.selected_bf202d {
 			@include hsl(6%);
 		}
 	}
-	.link_c91bad {
+	.link__972a0 {
 		max-width: unset;
 		margin-left: 0;
 		padding: 0;
 		background: transparent;
-		.layout_ec8679 {
+		.layout__20a53 {
 			padding: 0 8px 0 16px;
 		}
 	}
 
 	// Channel
-	.content_d80634 {
+	.content__07f91 {
 		margin: 0;
 	}
-	.wrapper_d8bfb3 {
+	.wrapper__2ea32 {
 		padding: 0;
-		&.modeUnreadImportant_d8bfb3 {
+		&.modeUnreadImportant__2ea32 {
 			svg {
 				color: #fff;
 			}
 		}
 		&:hover {
-			.link_d8bfb3 {
+			.link__2ea32 {
 				@include hsl(4%);
 			}
 		}
-		&.modeSelected_d8bfb3 {
+		&.modeSelected__2ea32 {
 			svg {
 				color: #fff;
 			}
-			.link_d8bfb3 {
+			.link__2ea32 {
 				@include hsl(6%);
 			}
 		}
 	}
-	.wrapper_d8bfb3 {
+	.wrapper__2ea32 {
 		padding: 0;
 		margin: 0;
 	}
-	.link_d8bfb3 {
+	.link__2ea32 {
 		padding: 6px 16px;
 	}
-	.typeThread_d8bfb3 .link_d8bfb3 {
+	.typeThread__2ea32 .link__2ea32 {
 		padding-left: 42px;
 	}
-	.unread_d8bfb3 {
+	.unread__2ea32 {
 		z-index: 1;
 		left: 0;
 	}
 
 	// Panels
-	.panels_a4d4d9 {
+	.panels_c48ade {
 		@include hsl(5%);
 	}
-	.container_b2ca13 {
+	.container__37e49 {
 		border: none;
 		padding-bottom: 0;
 	}
-	.container_b2ca13,
-	.activityPanel_a4d4d9 {
+	.container__37e49,
+	.activityPanel_c48ade {
 		background: transparent;
 	}
 }
